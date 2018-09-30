@@ -1,0 +1,1214 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00C87CF3563B9FCE54FC98EDBC0D87C9 /* lang_lb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405B0682C36259C44543686CB6913C7 /* lang_lb.swift */; };
+		0172F47593513E87565410AC4E8E753D /* Date+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC517DBD27C92B171DD5183EA34490BA /* Date+Compare.swift */; };
+		0216355FB03051F47AEABF49CDEBC5EA /* Pods-PodoCalendar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD8787D26A2A04B260C26839EB67C8EA /* Pods-PodoCalendar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		047AB92563EA41614945587F4452A245 /* lang_uz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970C741B1476CA84A4566CB96EECB609 /* lang_uz.swift */; };
+		059A4C3F8AF78592585454369A412A4E /* ISOParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7B20A235C1031F9FD3D423AA26F263 /* ISOParser.swift */; };
+		075A3CF93A1D76E4EED7BEED8938A13D /* Commons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E031B0675C83370E6CA4E60328F8DC69 /* Commons.swift */; };
+		07B1B47AE6975DC3B24D0828A145C252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		0A1908009E598F532B275E9A4690C788 /* lang_az.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314B35828B28822E21994BFA75387B71 /* lang_az.swift */; };
+		0B27E6F5D9EB452526D4CDF0E7C14BAE /* lang_hy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655E501CFD0ACF10046BA0475BE0CDEC /* lang_hy.swift */; };
+		0C4AD531336B5761467433E349ACE171 /* lang_ur.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9DAA345075C4650B155AE8AE7D1B687 /* lang_ur.swift */; };
+		0D3D1D60286C21495DBFD582BE5D88A6 /* lang_de.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2668B8E8CC7EA5C146D7916285837B22 /* lang_de.swift */; };
+		100093EC4520C27BF8B5B27F5915EFBB /* lang_dz.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ADA6722DF4DB15AA463D31C1EEFEB6 /* lang_dz.swift */; };
+		10DFEA6F553D42160175D3351A61CA4B /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 011AC67735A5874665952DB2A30B47B0 /* Date.swift */; };
+		121DF1EE1E473771777BD045F5185BD2 /* lang_as.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61A02771AEA30CFB776FD2EE7A543B0C /* lang_as.swift */; };
+		13238F94EDFA155BEF10E01F16C911E9 /* lang_ml.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FF06DDDFFEAEFFD7A1E80EA073DBF9 /* lang_ml.swift */; };
+		1BD8AE4FDCCC3B24E0555FF9DA5C6B3C /* lang_fo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A91A9CD1C6CB307F231F405037EAFD /* lang_fo.swift */; };
+		1C19D5AA2CF7BA292A27286D42E9940C /* lang_el.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC318B65B77846149A37DFAFD3B2F0A /* lang_el.swift */; };
+		1F4E7044E645889A10F276832BED84D8 /* lang_nb.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE62CBE16554686517A6FB4130AD42A1 /* lang_nb.swift */; };
+		20F6CDD16EB08745415D330E421F7959 /* lang_cy.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9C7BA0F09EC85EE42A630EC49DFF0 /* lang_cy.swift */; };
+		22CD4E6258F9D9C1870E294729F2D612 /* lang_ar_AE.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB0EBBD65220DA3BC80EE3D9E8C4009F /* lang_ar_AE.swift */; };
+		244D1110D53EE7CEBC7F2CF95D052093 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		27F3ACB4074170178FA60825ECCA9539 /* lang_gu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF1AF4EF9C78EC7D58B3F6CBC7613F5 /* lang_gu.swift */; };
+		2A1D3B7AE29F49DDC5D467ABDBEF6640 /* Locales.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D492070B29084F9A70B5F27154DDF8 /* Locales.swift */; };
+		2AF8979D301044BA72C32FACDAFD16B3 /* lang_zh_Hant_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E6F2B97546FFA3653E3CA2E2BC41D /* lang_zh_Hant_HK.swift */; };
+		2B005547CB5B5AEF89E997C618013C44 /* ISOFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7AEC3088D071EC2D53AF382663C612E /* ISOFormatter.swift */; };
+		2C07BA2466A491C2E981F0E4D227593D /* lang_si.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C234EB7A6DF32AF97F7871FC2FDA9F /* lang_si.swift */; };
+		2C07BC714137A2706B6B151B6018D19C /* lang_es_US.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98A4A6E2F3DB95C9D80391B962CD0F4 /* lang_es_US.swift */; };
+		2C87961A0F57B39CB33AF95DC0451E47 /* lang_kok.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC1486BE9F672DF2F07015C7990DA0B /* lang_kok.swift */; };
+		2D8857BC56EF40B4F407F861E891F082 /* lang_is.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555C90B0EE9FF9DFB01AAE8541612315 /* lang_is.swift */; };
+		2DD1474759DEFEDEB7C014CDED4766ED /* lang_ur_IN.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F467BC21C0B96A26EF4417196D67BFA /* lang_ur_IN.swift */; };
+		30326D3E09B1AA809F1F14E64F642BC8 /* lang_en.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D44373825E61F65FD2C05A0F67DC6BD /* lang_en.swift */; };
+		311BAC7F0D1C69806301B66C1EB60469 /* lang_ja.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B698BDD6F9DAD378572AE4E9255CB3 /* lang_ja.swift */; };
+		35234CE663B9EDC6B5DB346643857803 /* lang_jgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF716D935A5D552EA9F71E6AC31553E0 /* lang_jgo.swift */; };
+		36F09C11586D751D1882A250F23D0077 /* lang_fi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263E2C951D80C12CCE144736C56D07E1 /* lang_fi.swift */; };
+		3B05A6679EDA198E6211AE836D8162FB /* lang_fa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4797B9009D5AF4B243E7A650C2233B8E /* lang_fa.swift */; };
+		3B6564FB1988C3159ACA29AE400D326A /* lang_mt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1BF57034733D8BD58F80FD2C5B62D4 /* lang_mt.swift */; };
+		3BB36EAC61A6795C06212CEE8166CD83 /* TimePeriodGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9525578278D23BE4C95F460BFAE7822A /* TimePeriodGroup.swift */; };
+		3C2E0AE1DF4207A57673232086E1F606 /* Region.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C550EE2A3FCB8D5CF24D7420E8A385D /* Region.swift */; };
+		401C3DD78DAD187548C34BAB13CB7429 /* lang_es_PY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F67F64756A3F117E7D18809F9D34D5 /* lang_es_PY.swift */; };
+		4272C6C06ED0F158B78AC6EB0E7E0AE6 /* lang_et.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18957BF0D7D08E626BE88DD2C62EB994 /* lang_et.swift */; };
+		427B673ADD4A9869C45D14FAE9F0D0D9 /* DateInRegion+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8789224BF146B647D6FEF92CC303C2AB /* DateInRegion+Components.swift */; };
+		42AE2404E481F9FF7558A0164548C279 /* lang_yi.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06D08457B63360081768294D90769F4 /* lang_yi.swift */; };
+		437CCC3A16ACCDF4419573B9BD3C9850 /* lang_hu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B261DD45C319CE31EE052977531C644 /* lang_hu.swift */; };
+		465DB81B2D3F1E5E66ECCBFE2E144D47 /* lang_he.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3C7104DFB0BAE0B3627394ADB4760 /* lang_he.swift */; };
+		4A24C8746DC6CC6B361BCBD6A85C5B55 /* lang_yue_Hans.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9E67023EAEE0D5A1B8C5ECC5F43DD4 /* lang_yue_Hans.swift */; };
+		4ABE474D15E7C5E3A92B233C7EAAE9FE /* lang_zh_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5296F147B9283B37F4B7BAF439372D6F /* lang_zh_Hant.swift */; };
+		4AC0C88B1A719969BFE28FFC306776F0 /* lang_th.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60C8182D82AF60E563452DE8A6C42D2D /* lang_th.swift */; };
+		4C7F88C120D145DB31D3F69FB187F712 /* DotNetParserFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C2EC741452B8233061F9F5ADFDF9A9 /* DotNetParserFormatter.swift */; };
+		4DE914E7BF1E23438648D2120E362888 /* lang_be.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2E605002FB9A049417469EC01F8825 /* lang_be.swift */; };
+		4E7602DAC1EE1E3D6DABC99868AC5131 /* lang_nn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DD937214AB6C9EB8A653762016F31C /* lang_nn.swift */; };
+		4EA61ACA5C14EF209C8ACBF4F2A766CD /* DateInRegion+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006BC4A4051036A5B75F25D19094F71C /* DateInRegion+Math.swift */; };
+		4F329FBDB74310B2AF3D7B73D483A16E /* TimePeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F638D50EDDC178BF9C67BE00DB258FC /* TimePeriod.swift */; };
+		510657A393432B7DB9B748B59B68F054 /* lang_eu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8762477264B88B2679671AC2433914AF /* lang_eu.swift */; };
+		517637EB4C60887DB2D91A41B281B33B /* lang_pa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CF7EA3F5A30467AC754BF4AB19406E /* lang_pa.swift */; };
+		51B1B504C6D42C3750795EAC17F812D8 /* lang_hsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B93F8658D117D1722C175A1BABB1DD9 /* lang_hsb.swift */; };
+		51EAD8E1279E517F983ED68B1CB40642 /* lang_ps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556A876BABC9CDFC2AC67C50107D6598 /* lang_ps.swift */; };
+		520399DC905C9B0EA1CA0EDC277DAC56 /* SwiftDate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAEC637228385C4B1FD3C87DFDBB01E /* SwiftDate-dummy.m */; };
+		5297734EB890AB7A993AC65783B42278 /* lang_mk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C94E06FADD10F20A99E64F3B1CBAF0B /* lang_mk.swift */; };
+		5420B30465B26ECB4B534584792A0718 /* lang_uk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3BBBCF4A952CD95C75F86951129CDD /* lang_uk.swift */; };
+		56D2E571B0364355D283DD212D5C2940 /* DateInRegion+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC4EC5ACDE3770B9E5D19DB707C9415 /* DateInRegion+Compare.swift */; };
+		5846CF84382D760E364DC74F4FC074DC /* lang_zh_Hans_HK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EE2121E2CD615163B05866E2D04230 /* lang_zh_Hans_HK.swift */; };
+		5CBC8864F8CCBE3CC22EB4B403723C30 /* SwiftDate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4385BAF1CD37B2BEBC2BC3B792A882F5 /* SwiftDate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EFAC2BEC37F8640B09428FDECE3D396 /* lang_to.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674DBA32CC5BC1834BA100E7C2EB1122 /* lang_to.swift */; };
+		660689981D45E7E6B660E3E0A54882F3 /* lang_sl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAF45EF0CDE47D217868930F5B5FE0 /* lang_sl.swift */; };
+		6645CB7F533D2154B3504994A6AD6555 /* lang_br.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B9CD950151836464DD9129265551C9 /* lang_br.swift */; };
+		669D15D16787EE4AC8A1550F841DAB95 /* lang_fr_CA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E4AE729BCE6359371BC1D6A23EA4E4 /* lang_fr_CA.swift */; };
+		67E77ACD7F8B3F953CF71E4DFFE30BEC /* lang_ru.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55F64A18FB06247D3AF4922F56EAFC1 /* lang_ru.swift */; };
+		685C183BE9E55E5A04AF5B8C3B690AD6 /* AssociatedValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B2358FAE351AD746CE0F48E449519F /* AssociatedValues.swift */; };
+		68810D4C44EC033859CA8A8122F359D5 /* lang_ta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 501BA58809ECB1CD5229FB00EDCFB859 /* lang_ta.swift */; };
+		68F409482AFA258F57E8F89C45BD3966 /* lang_mzn.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D51A6BE3BA5FE79641089278D715AD /* lang_mzn.swift */; };
+		6BD090F6076CB00CF1BEF0CC9DAFE4E0 /* lang_sv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765F203A2F19A6A307E2ACBFE676FED8 /* lang_sv.swift */; };
+		6CF740BCDE3FEEBBEC8B77BCD11EDECE /* lang_te.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C0912B6A9DD7FDA9AAA0AABDE8B0E /* lang_te.swift */; };
+		6FE5AE9EF7FD17D17D90209C6CABC644 /* Date+Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0321EFFEDBAFB59242D292AC0F8363E4 /* Date+Components.swift */; };
+		707EA91743556D1926EF6D30C515B067 /* lang_ug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00E4541F1E9CE1B6CF0F817A1F09B153 /* lang_ug.swift */; };
+		71BDA30DBBB422E89FCCADE2EDEDD822 /* lang_km.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29A625EBDB385515EBB09E4FC814ACA1 /* lang_km.swift */; };
+		71E5C49BAB2E0B7FE136B0EF0099729E /* lang_sk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B50C8191A9AFB057030E0168021FA /* lang_sk.swift */; };
+		75C35B507C10661C85D28107ED450FB8 /* lang_ko.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6AC54DEE99CD27F445B1D501163E08 /* lang_ko.swift */; };
+		783049476891B2D29EB30E0FD61E8C72 /* lang_sr_Latn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A86016EB4FFF99422177BD3F125323 /* lang_sr_Latn.swift */; };
+		78C24FA1746A84FB7B3809FA1CBE97F4 /* lang_lo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8E1049DF7D2FCF991B9B57B515E321 /* lang_lo.swift */; };
+		7BF412D9FC25CDFFCBA5D2539FDB5928 /* lang_se.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865B31E9826BBB8FDD19BBB326AD013E /* lang_se.swift */; };
+		7DB11802F2D611F3709B77BB89751474 /* lang_af.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC0711907FA164B55E201B0CD81DED52 /* lang_af.swift */; };
+		81437139AB0BD989CC65962DF77D072B /* lang_sw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10419BC74CE06C2DEB5AA5BA50312577 /* lang_sw.swift */; };
+		8E671E92E7B1A6D3409B87BA13B063A6 /* lang_bn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5F53AD7226F37CD52E3707C4F401207 /* lang_bn.swift */; };
+		8F8D2BC7F660D6BB787ACA70A0477A82 /* lang_nl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331B0D4C8FEB4C4F567C1EFF0E741DFA /* lang_nl.swift */; };
+		9177CE07B9A804837504FE6EDEBFFDA3 /* RelativeFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63950FEC396AE6131ED076B6FE6CD295 /* RelativeFormatter.swift */; };
+		93DEA10452B999B9BD3BF82187A92C64 /* lang_lkt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105BA51171D839C28B05266098945387 /* lang_lkt.swift */; };
+		942952DDA716F8C3111FAA5C6E1AD89E /* lang_hi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27516D5A014E73824BE3FEAF665B0D78 /* lang_hi.swift */; };
+		95F4293B3E82C625386BD7D64BC7C65B /* lang_kk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 829F61E87D0D4ED928BEBBBF83B60F97 /* lang_kk.swift */; };
+		96AD06EBABDB30C8B4E7EA439E24D7C2 /* lang_bs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BE4AF03968B61B2813A2C2258A7566 /* lang_bs.swift */; };
+		99755036F3B0D23E5DD72A6538935839 /* lang_id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FBB77C65AA53CEDC0A3EE5AEE8D20F /* lang_id.swift */; };
+		99D23349BCD5667ECE6F168EBAB89BD7 /* lang_mr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4136F3CBC9A75EC35680D38FA6192 /* lang_mr.swift */; };
+		9C0A0357DBAAFC73CB9EECF530187A87 /* lang_kl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B4EBF81F1D3060FF3CEE72DDDD7CA1 /* lang_kl.swift */; };
+		9D3A89BCE8C56BA16C023D7E3C362D3A /* lang_yue_Hant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455FEA8722B81598478383E96F9C88FD /* lang_yue_Hant.swift */; };
+		9F9000FCA222C498A7FED0E27C967517 /* lang_zh_Hans_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510A163BF72C121470E064E2DD4F3106 /* lang_zh_Hans_MO.swift */; };
+		A24FB59DDE72078B4D5BF5B0D21A8003 /* lang_ky.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D787E0665BBC065E3567D3D6710EB2 /* lang_ky.swift */; };
+		A367698C5127DDC44CDFDCB65D02E2BC /* lang_es_AR.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376A3E8CAF9F7AC37B0513A8A1DDE7E /* lang_es_AR.swift */; };
+		A3D1A7662B49BD64B8618D62D52A4CF3 /* lang_ee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB0CDD38030E0C9D5C5BD1DC62DBE70 /* lang_ee.swift */; };
+		A6339421635779F2B36624971950AB78 /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0F55477F83699D4DB42AE9ED923860 /* String+Parser.swift */; };
+		A69C6456583574FFE764E3CE86DA91FE /* lang_lt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2E71FF44C83881F495C648F94F84D8 /* lang_lt.swift */; };
+		A8F2724D9A700946DD9F0B9A0DD21B75 /* TimePeriodProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57507A5762162D690BBDF1044BE31051 /* TimePeriodProtocol.swift */; };
+		A8F3CCB055A3BE715B4B54C02A5E208C /* lang_ro.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA53B4727FE5553CE1284E4CF1B6A784 /* lang_ro.swift */; };
+		A92F972573CA97FB67D1853384AE1BB8 /* lang_es.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237FA31D5300598DF40491316926A951 /* lang_es.swift */; };
+		AA6C138B3539DFE3AEC90A385206EAA1 /* lang_uz_Cyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EBC4D2006A2E4F25A9923570ABA086A /* lang_uz_Cyrl.swift */; };
+		AB886659777291C94C43A019D5BCB394 /* lang_pl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8321FEF3438289D62BA4F5A57848D647 /* lang_pl.swift */; };
+		AFDD80D3FD69381C2BED32FFA3E25B4B /* lang_tk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00E8E92A38A1EB4E2A4BE701CC26141 /* lang_tk.swift */; };
+		B03770A98CE3200D4F46E1BCDA44CB39 /* TimePeriodChain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6CF3B325677217D7C14BE7711BF071 /* TimePeriodChain.swift */; };
+		B1532526A33CADB8C910417CF2AC1BE4 /* lang_da.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187C4249F26BE74C1E34F1CC309257FE /* lang_da.swift */; };
+		B25A9444BBD30C405251C8F667A787FB /* lang_tr.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA1729AD1DA35833A20F45549A5B6FCC /* lang_tr.swift */; };
+		B306FFFBE0E898966A51BBA9CF2E509C /* DateInRegion+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465A97EE59220FE5954C5A4A19EE645 /* DateInRegion+Create.swift */; };
+		B711918729481C86B26A51255BC961AA /* lang_gd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B092A39AAE9ED12EC0F80F8FB45A604 /* lang_gd.swift */; };
+		B7E0AAD3EFDC681D33201A815B4AF96B /* lang_mn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D017714EA44FC4669169F5383C3D7861 /* lang_mn.swift */; };
+		B834315FB89B43CFE021CC1934B05869 /* lang_vi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68175F87D213C5258C54A690CB08ECBB /* lang_vi.swift */; };
+		BA77D592FCEC6A7D5FE15E365DCFBDA8 /* lang_ti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D25F43467079AEE62277B332AF9E5D0 /* lang_ti.swift */; };
+		BAC46F2D35B998BF2D89FA9FA23D61B0 /* lang_zu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E706867D3AB480D4C196D6E67063A66 /* lang_zu.swift */; };
+		BB1C0338C1C64C65CD05D612F5ADE712 /* lang_fr.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B5437354B26AB9E6469332C41BFE1B /* lang_fr.swift */; };
+		BD6D14F3B5E4F42B39B33B47B1DA59DF /* lang_bsCyrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3461D38B9EF50A5DFD0D040CFC68189 /* lang_bsCyrl.swift */; };
+		BE5777007380A4915D169732CCCD9189 /* lang_wae.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC6E71A48C1E180588D20176905E4A1 /* lang_wae.swift */; };
+		BECA7748429D007EB40FC0AE2272CB60 /* lang_sq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF6A9BC16D45A330748FA149D97B8F7 /* lang_sq.swift */; };
+		BECAFF597E3B244BA2BE894CE5C75B55 /* lang_ga.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC6CF0B69BDD16DF30E36797FC54CA3 /* lang_ga.swift */; };
+		C251E45462F9A3A0C8EF93311A94E822 /* lang_sr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6AF62437607E082FF6D5849EA743D6 /* lang_sr.swift */; };
+		C2E27564B14808E7F149E5D869E450CE /* lang_zh_Hant_MO.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD615F070944DFB8B63B6792B104428 /* lang_zh_Hant_MO.swift */; };
+		C412C83AEA2C976677E27CF32DFE7F42 /* lang_am.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC1077ADF654DC4E5FD4671748B07C /* lang_am.swift */; };
+		C6FCEB71BBBB75BC00C57D961F3DE723 /* lang_gl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C8926F10340F0D6B93F5C6BC6D9B41C /* lang_gl.swift */; };
+		CCC953F52F30008E8A04C140DCC23D63 /* lang_ar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C235D70B632B0308B1318DFBF16345 /* lang_ar.swift */; };
+		CDA386529D6CBB5D545789D3674643AE /* lang_or.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4EAAF59B39C6D9C50579E237EA564A /* lang_or.swift */; };
+		CE022D9649B2D7C7CF609B7C696D92FC /* lang_sd.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35CE8A7B45CCC1D8E75C9462105CEC9 /* lang_sd.swift */; };
+		CE3ABF2D83E2BF6B61B0D1178071A5CC /* Zones.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6FB485980617C902416DF35DF1BD322 /* Zones.swift */; };
+		CF0BBCCFDB5D3FC111D3C315703E6B58 /* lang_zh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502B85C17A8728056ADBEE1E777BFB57 /* lang_zh.swift */; };
+		CFC4B047C574E08C0780F1FE3828E0FC /* TimeInterval+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F720B17A06F841002CE6FA55A269103 /* TimeInterval+Formatter.swift */; };
+		CFE97BA2DA76254A9203B2D4D81EEA0D /* lang_sah.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3186FFE51996231F2F78367781F8A6 /* lang_sah.swift */; };
+		D0FB4EFDDEFF260DAEF453AC459C45C1 /* lang_kn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51754DDBC3E6EA336BC73427BA1C3F18 /* lang_kn.swift */; };
+		D174772240FDFB5F214E9B55F6396EB7 /* lang_ksh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE383B65413E4584FC8286DC6384D4B /* lang_ksh.swift */; };
+		D46A0B30409F01FFCD93FAA9BCCC45D3 /* lang_ne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB36B2FBA8BC3F6AD006EC131276E58 /* lang_ne.swift */; };
+		D54958BDB6A4C77897215810B33AA5E3 /* lang_it.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB6E9091384A5867BCDAF2BD0A57B6A /* lang_it.swift */; };
+		D67A02ED0013035E455AAC438A263506 /* lang_pt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40518140EBF08469B38BF03E3FBF7F0C /* lang_pt.swift */; };
+		D67F3385094A30795D1AEA45685CBCB2 /* lang_fur.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB04F4EC3F6554869E814F40B3D2BE2 /* lang_fur.swift */; };
+		D6C74B05359DA4A01805730BC467FFE8 /* RelativeFormatter+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01495811236A1A31117D9F0B815B3A80 /* RelativeFormatter+Style.swift */; };
+		D7ED0F8B7A70FB1160F8E829AE786D01 /* lang_dsb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E4E4EC92B2B0E954F41C95B397FCE /* lang_dsb.swift */; };
+		D9935C54BBC266A6615EC85FD984F2E5 /* lang_lv.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6CBEDB03E8C2BBD7D4B218B78A1A26 /* lang_lv.swift */; };
+		DCE02AD3FB0B551E13CD1CD4005C0E5E /* lang_my.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1252FEC37CB701953B5D145450963C /* lang_my.swift */; };
+		E1525C98AC28911516CEC042D77895B2 /* lang_es_MX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B9A43B2E00BCA01351C9BB580EF0E3 /* lang_es_MX.swift */; };
+		E1583A02682893E38D1CC5B0611D6C8B /* Pods-PodoCalendar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB99CC4F90B1BD28EE21246DB2B3F7F /* Pods-PodoCalendar-dummy.m */; };
+		E21BD9B69EDAA04F24E8055CCBC452BE /* SwiftDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1FA21FF0A60289065BCEA56591EA09 /* SwiftDate.swift */; };
+		E27AAC958E0AB34FBAA803CADDA11CFD /* lang_ka.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE387CAAB9C68D60FEBD0CE8892A90B0 /* lang_ka.swift */; };
+		E27FA33308ABA1F8AC4042C4FC0148EC /* lang_hr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6946A9243C616E85B719516FF285DE /* lang_hr.swift */; };
+		E2FB4A3CE4410DE9EF86D1CBAD763B22 /* Formatter+Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8CEF0780A410CBD21A43317EB8CFD4 /* Formatter+Protocols.swift */; };
+		E47E094BC2E3D6D46D02EA34B3AD82B0 /* lang_cs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B1A1E724ACBEB8C7B79FD363FE2360 /* lang_cs.swift */; };
+		E4C0C0078004609496A4EF5667996B82 /* lang_ms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2803C9925D0EC47E68EFB01EF317E311 /* lang_ms.swift */; };
+		E52645CA797EB11E197413C7C2C12E47 /* TimePeriod+Support.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC86EAEC46B1DD077BCB3D9B773909D /* TimePeriod+Support.swift */; };
+		E5CBA4D6EBC37789D3FD2498462BCE82 /* lang_ca.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E7705BD100B51C6193004B33AEDA82 /* lang_ca.swift */; };
+		E71E4E9D1C29477E3BC89079EC44D8B4 /* TimePeriodCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00DBBC5606BC364C5A3E228B346935FE /* TimePeriodCollection.swift */; };
+		E7FE16E24CAEC119C675995DCC92BC28 /* Date+Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382D1DA893FA9BC718C229BA2ED81423 /* Date+Math.swift */; };
+		ECAC8403F72C43DAC8E9F71FB8D5D515 /* lang_zh_Hans_SG.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB87C202CD2C8D37E33388B9ED352E77 /* lang_zh_Hans_SG.swift */; };
+		ED5C4F83F6B4929268AA245928C4AAAE /* lang_fy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712A1E65DBCC7B2786AAE9B36E63E8F0 /* lang_fy.swift */; };
+		EF18069EC1ACC4053A69CB691512C1E9 /* Calendars.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8D1857FE91AEC48CC61302A3438D13 /* Calendars.swift */; };
+		F015AB261257DF0392F179E99FF85BD1 /* Date+Create.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0F708B6D6EF6E99004FF58484E84B0 /* Date+Create.swift */; };
+		F30BE4DF4B8C598DB85645F602E34659 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89A1D9CB9CD525D9291A7E262D7B843E /* DateRepresentable.swift */; };
+		F40B2B5ACC4838B0E54DA9EBE54EB183 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C5B51A8FF0A40FF7FBA38811CF454 /* Int+DateComponents.swift */; };
+		F521EDB5F2B68579D00D2323A8D7AA45 /* lang_kea.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6396DCA30E34184800BA6B567F60C /* lang_kea.swift */; };
+		F7B9471241E314865EC19BDA6316F153 /* lang_se_FI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB318B709BA16961C4C410013C25AF5 /* lang_se_FI.swift */; };
+		F858034F2BD0CD4E0ADBE85EDF13C172 /* lang_bg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5D0DDFA2A663108291F60CC72811C1 /* lang_bg.swift */; };
+		F8FDABB0AFE78F6E071EF7CE43628C8E /* DateInRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A461899597375EF856EAF4434366049A /* DateInRegion.swift */; };
+		F9F3B22D912C1F0675AEE53B401CCA32 /* lang_fil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C6F91A2C1A2CAE46C74C611DDD74EF /* lang_fil.swift */; };
+		FF641E7E1841EC052F0CC81CCF8C28BC /* DateComponents+Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D51C89944B673F9638FF6349BD53F78 /* DateComponents+Extras.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94647E582EC1F112BA16940BBF45403B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9F3EAE56D85C78E4A8B0F291A73EB264;
+			remoteInfo = SwiftDate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		006BC4A4051036A5B75F25D19094F71C /* DateInRegion+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Math.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Math.swift"; sourceTree = "<group>"; };
+		00DBBC5606BC364C5A3E228B346935FE /* TimePeriodCollection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodCollection.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodCollection.swift; sourceTree = "<group>"; };
+		00E4541F1E9CE1B6CF0F817A1F09B153 /* lang_ug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ug.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ug.swift; sourceTree = "<group>"; };
+		011AC67735A5874665952DB2A30B47B0 /* Date.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Date.swift; path = Sources/SwiftDate/Date/Date.swift; sourceTree = "<group>"; };
+		01495811236A1A31117D9F0B815B3A80 /* RelativeFormatter+Style.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RelativeFormatter+Style.swift"; path = "Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter+Style.swift"; sourceTree = "<group>"; };
+		01A86016EB4FFF99422177BD3F125323 /* lang_sr_Latn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr_Latn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr_Latn.swift; sourceTree = "<group>"; };
+		02B698BDD6F9DAD378572AE4E9255CB3 /* lang_ja.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ja.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ja.swift; sourceTree = "<group>"; };
+		0321EFFEDBAFB59242D292AC0F8363E4 /* Date+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Components.swift"; path = "Sources/SwiftDate/Date/Date+Components.swift"; sourceTree = "<group>"; };
+		05A91A9CD1C6CB307F231F405037EAFD /* lang_fo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fo.swift; sourceTree = "<group>"; };
+		07F67F64756A3F117E7D18809F9D34D5 /* lang_es_PY.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_PY.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_PY.swift; sourceTree = "<group>"; };
+		09EE2121E2CD615163B05866E2D04230 /* lang_zh_Hans_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_HK.swift; sourceTree = "<group>"; };
+		0A219EDEB7E3BD2B33371D19C415083C /* SwiftDate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDate.xcconfig; sourceTree = "<group>"; };
+		0AC1486BE9F672DF2F07015C7990DA0B /* lang_kok.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kok.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kok.swift; sourceTree = "<group>"; };
+		0AC318B65B77846149A37DFAFD3B2F0A /* lang_el.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_el.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_el.swift; sourceTree = "<group>"; };
+		0B5D0DDFA2A663108291F60CC72811C1 /* lang_bg.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bg.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bg.swift; sourceTree = "<group>"; };
+		0E6CBEDB03E8C2BBD7D4B218B78A1A26 /* lang_lv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lv.swift; sourceTree = "<group>"; };
+		10419BC74CE06C2DEB5AA5BA50312577 /* lang_sw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sw.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sw.swift; sourceTree = "<group>"; };
+		105BA51171D839C28B05266098945387 /* lang_lkt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lkt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lkt.swift; sourceTree = "<group>"; };
+		11E4AE729BCE6359371BC1D6A23EA4E4 /* lang_fr_CA.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr_CA.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr_CA.swift; sourceTree = "<group>"; };
+		12C2EC741452B8233061F9F5ADFDF9A9 /* DotNetParserFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DotNetParserFormatter.swift; path = Sources/SwiftDate/Formatters/DotNetParserFormatter.swift; sourceTree = "<group>"; };
+		187C4249F26BE74C1E34F1CC309257FE /* lang_da.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_da.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_da.swift; sourceTree = "<group>"; };
+		18957BF0D7D08E626BE88DD2C62EB994 /* lang_et.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_et.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_et.swift; sourceTree = "<group>"; };
+		1B261DD45C319CE31EE052977531C644 /* lang_hu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hu.swift; sourceTree = "<group>"; };
+		1C94E06FADD10F20A99E64F3B1CBAF0B /* lang_mk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mk.swift; sourceTree = "<group>"; };
+		1D4C5B51A8FF0A40FF7FBA38811CF454 /* Int+DateComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Int+DateComponents.swift"; path = "Sources/SwiftDate/Foundation+Extras/Int+DateComponents.swift"; sourceTree = "<group>"; };
+		1E706867D3AB480D4C196D6E67063A66 /* lang_zu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zu.swift; sourceTree = "<group>"; };
+		1EBC4D2006A2E4F25A9923570ABA086A /* lang_uz_Cyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz_Cyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz_Cyrl.swift; sourceTree = "<group>"; };
+		1F638D50EDDC178BF9C67BE00DB258FC /* TimePeriod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriod.swift; path = Sources/SwiftDate/TimePeriod/TimePeriod.swift; sourceTree = "<group>"; };
+		22CE0BA8513A65F5D528BC5FBF9CE861 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		237FA31D5300598DF40491316926A951 /* lang_es.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es.swift; sourceTree = "<group>"; };
+		263E2C951D80C12CCE144736C56D07E1 /* lang_fi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fi.swift; sourceTree = "<group>"; };
+		2668B8E8CC7EA5C146D7916285837B22 /* lang_de.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_de.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_de.swift; sourceTree = "<group>"; };
+		27516D5A014E73824BE3FEAF665B0D78 /* lang_hi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hi.swift; sourceTree = "<group>"; };
+		27B1A1E724ACBEB8C7B79FD363FE2360 /* lang_cs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cs.swift; sourceTree = "<group>"; };
+		2803C9925D0EC47E68EFB01EF317E311 /* lang_ms.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ms.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ms.swift; sourceTree = "<group>"; };
+		29A625EBDB385515EBB09E4FC814ACA1 /* lang_km.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_km.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_km.swift; sourceTree = "<group>"; };
+		2A7E4E4EC92B2B0E954F41C95B397FCE /* lang_dsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dsb.swift; sourceTree = "<group>"; };
+		2BF1AF4EF9C78EC7D58B3F6CBC7613F5 /* lang_gu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gu.swift; sourceTree = "<group>"; };
+		2D2E605002FB9A049417469EC01F8825 /* lang_be.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_be.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_be.swift; sourceTree = "<group>"; };
+		2F467BC21C0B96A26EF4417196D67BFA /* lang_ur_IN.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur_IN.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur_IN.swift; sourceTree = "<group>"; };
+		314B35828B28822E21994BFA75387B71 /* lang_az.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_az.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_az.swift; sourceTree = "<group>"; };
+		32BE4AF03968B61B2813A2C2258A7566 /* lang_bs.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bs.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bs.swift; sourceTree = "<group>"; };
+		331B0D4C8FEB4C4F567C1EFF0E741DFA /* lang_nl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nl.swift; sourceTree = "<group>"; };
+		34453A2A0711FDCE23C60D2516166C01 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDate.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		382D1DA893FA9BC718C229BA2ED81423 /* Date+Math.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Math.swift"; path = "Sources/SwiftDate/Date/Date+Math.swift"; sourceTree = "<group>"; };
+		3A6AF62437607E082FF6D5849EA743D6 /* lang_sr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sr.swift; sourceTree = "<group>"; };
+		3D44373825E61F65FD2C05A0F67DC6BD /* lang_en.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_en.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_en.swift; sourceTree = "<group>"; };
+		3D51C89944B673F9638FF6349BD53F78 /* DateComponents+Extras.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateComponents+Extras.swift"; path = "Sources/SwiftDate/Foundation+Extras/DateComponents+Extras.swift"; sourceTree = "<group>"; };
+		3E8CEF0780A410CBD21A43317EB8CFD4 /* Formatter+Protocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Formatter+Protocols.swift"; path = "Sources/SwiftDate/Formatters/Formatter+Protocols.swift"; sourceTree = "<group>"; };
+		3FB4136F3CBC9A75EC35680D38FA6192 /* lang_mr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mr.swift; sourceTree = "<group>"; };
+		40518140EBF08469B38BF03E3FBF7F0C /* lang_pt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pt.swift; sourceTree = "<group>"; };
+		4385BAF1CD37B2BEBC2BC3B792A882F5 /* SwiftDate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-umbrella.h"; sourceTree = "<group>"; };
+		455FEA8722B81598478383E96F9C88FD /* lang_yue_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hant.swift; sourceTree = "<group>"; };
+		4797B9009D5AF4B243E7A650C2233B8E /* lang_fa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fa.swift; sourceTree = "<group>"; };
+		47FF70C4EC6EF2C8A705D9FD0CB9F6A8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B7886C09EADF112F09F80A76F160E6C /* Pods-PodoCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodoCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		4D25F43467079AEE62277B332AF9E5D0 /* lang_ti.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ti.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ti.swift; sourceTree = "<group>"; };
+		4D2B50C8191A9AFB057030E0168021FA /* lang_sk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sk.swift; sourceTree = "<group>"; };
+		4F3BBBCF4A952CD95C75F86951129CDD /* lang_uk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uk.swift; sourceTree = "<group>"; };
+		501BA58809ECB1CD5229FB00EDCFB859 /* lang_ta.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ta.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ta.swift; sourceTree = "<group>"; };
+		502B85C17A8728056ADBEE1E777BFB57 /* lang_zh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh.swift; sourceTree = "<group>"; };
+		50FEEBC853271F5DC9A5BD300A4A75CC /* SwiftDate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftDate.modulemap; sourceTree = "<group>"; };
+		510A163BF72C121470E064E2DD4F3106 /* lang_zh_Hans_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_MO.swift; sourceTree = "<group>"; };
+		51754DDBC3E6EA336BC73427BA1C3F18 /* lang_kn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kn.swift; sourceTree = "<group>"; };
+		5296F147B9283B37F4B7BAF439372D6F /* lang_zh_Hant.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant.swift; sourceTree = "<group>"; };
+		54DB8EEAD20AD783A45A3AECFA81371A /* Pods_PodoCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_PodoCalendar.framework; path = "Pods-PodoCalendar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		555C90B0EE9FF9DFB01AAE8541612315 /* lang_is.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_is.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_is.swift; sourceTree = "<group>"; };
+		556A876BABC9CDFC2AC67C50107D6598 /* lang_ps.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ps.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ps.swift; sourceTree = "<group>"; };
+		57507A5762162D690BBDF1044BE31051 /* TimePeriodProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodProtocol.swift; path = Sources/SwiftDate/TimePeriod/TimePeriodProtocol.swift; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B8D1857FE91AEC48CC61302A3438D13 /* Calendars.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Calendars.swift; path = Sources/SwiftDate/Supports/Calendars.swift; sourceTree = "<group>"; };
+		5C1BF57034733D8BD58F80FD2C5B62D4 /* lang_mt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mt.swift; sourceTree = "<group>"; };
+		5C6CF3B325677217D7C14BE7711BF071 /* TimePeriodChain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodChain.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodChain.swift; sourceTree = "<group>"; };
+		5E9E67023EAEE0D5A1B8C5ECC5F43DD4 /* lang_yue_Hans.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yue_Hans.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yue_Hans.swift; sourceTree = "<group>"; };
+		60C8182D82AF60E563452DE8A6C42D2D /* lang_th.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_th.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_th.swift; sourceTree = "<group>"; };
+		61A02771AEA30CFB776FD2EE7A543B0C /* lang_as.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_as.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_as.swift; sourceTree = "<group>"; };
+		61CF7EA3F5A30467AC754BF4AB19406E /* lang_pa.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pa.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pa.swift; sourceTree = "<group>"; };
+		6376A3E8CAF9F7AC37B0513A8A1DDE7E /* lang_es_AR.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_AR.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_AR.swift; sourceTree = "<group>"; };
+		63950FEC396AE6131ED076B6FE6CD295 /* RelativeFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RelativeFormatter.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/RelativeFormatter.swift; sourceTree = "<group>"; };
+		640253CF8F538FF9C0949DA2A653FF30 /* Pods-PodoCalendar-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PodoCalendar-resources.sh"; sourceTree = "<group>"; };
+		655E501CFD0ACF10046BA0475BE0CDEC /* lang_hy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hy.swift; sourceTree = "<group>"; };
+		674DBA32CC5BC1834BA100E7C2EB1122 /* lang_to.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_to.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_to.swift; sourceTree = "<group>"; };
+		68175F87D213C5258C54A690CB08ECBB /* lang_vi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_vi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_vi.swift; sourceTree = "<group>"; };
+		69BAED3B27858AA7D9AACF69C5E0B29F /* Pods-PodoCalendar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PodoCalendar.modulemap"; sourceTree = "<group>"; };
+		6BC6E71A48C1E180588D20176905E4A1 /* lang_wae.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_wae.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_wae.swift; sourceTree = "<group>"; };
+		6C8926F10340F0D6B93F5C6BC6D9B41C /* lang_gl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gl.swift; sourceTree = "<group>"; };
+		6E1E6F2B97546FFA3653E3CA2E2BC41D /* lang_zh_Hant_HK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_HK.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_HK.swift; sourceTree = "<group>"; };
+		6EC4EC5ACDE3770B9E5D19DB707C9415 /* DateInRegion+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Compare.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Compare.swift"; sourceTree = "<group>"; };
+		6F2E71FF44C83881F495C648F94F84D8 /* lang_lt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lt.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lt.swift; sourceTree = "<group>"; };
+		712A1E65DBCC7B2786AAE9B36E63E8F0 /* lang_fy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fy.swift; sourceTree = "<group>"; };
+		71B9A43B2E00BCA01351C9BB580EF0E3 /* lang_es_MX.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_MX.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_MX.swift; sourceTree = "<group>"; };
+		765F203A2F19A6A307E2ACBFE676FED8 /* lang_sv.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sv.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sv.swift; sourceTree = "<group>"; };
+		7AF6A9BC16D45A330748FA149D97B8F7 /* lang_sq.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sq.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sq.swift; sourceTree = "<group>"; };
+		7CB0CDD38030E0C9D5C5BD1DC62DBE70 /* lang_ee.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ee.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ee.swift; sourceTree = "<group>"; };
+		7DB99CC4F90B1BD28EE21246DB2B3F7F /* Pods-PodoCalendar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PodoCalendar-dummy.m"; sourceTree = "<group>"; };
+		7F6946A9243C616E85B719516FF285DE /* lang_hr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hr.swift; sourceTree = "<group>"; };
+		829F61E87D0D4ED928BEBBBF83B60F97 /* lang_kk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kk.swift; sourceTree = "<group>"; };
+		8321FEF3438289D62BA4F5A57848D647 /* lang_pl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_pl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_pl.swift; sourceTree = "<group>"; };
+		83B4EBF81F1D3060FF3CEE72DDDD7CA1 /* lang_kl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kl.swift; sourceTree = "<group>"; };
+		83FBB77C65AA53CEDC0A3EE5AEE8D20F /* lang_id.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_id.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_id.swift; sourceTree = "<group>"; };
+		8465A97EE59220FE5954C5A4A19EE645 /* DateInRegion+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Create.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Create.swift"; sourceTree = "<group>"; };
+		84BC1077ADF654DC4E5FD4671748B07C /* lang_am.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_am.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_am.swift; sourceTree = "<group>"; };
+		865B31E9826BBB8FDD19BBB326AD013E /* lang_se.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se.swift; sourceTree = "<group>"; };
+		8762477264B88B2679671AC2433914AF /* lang_eu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_eu.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_eu.swift; sourceTree = "<group>"; };
+		8789224BF146B647D6FEF92CC303C2AB /* DateInRegion+Components.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DateInRegion+Components.swift"; path = "Sources/SwiftDate/DateInRegion/DateInRegion+Components.swift"; sourceTree = "<group>"; };
+		89A1D9CB9CD525D9291A7E262D7B843E /* DateRepresentable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateRepresentable.swift; path = Sources/SwiftDate/DateRepresentable.swift; sourceTree = "<group>"; };
+		8C04BD1C0DD43AF4E4FD988AABFCC361 /* SwiftDate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDate-prefix.pch"; sourceTree = "<group>"; };
+		8C550EE2A3FCB8D5CF24D7420E8A385D /* Region.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Region.swift; path = Sources/SwiftDate/DateInRegion/Region.swift; sourceTree = "<group>"; };
+		8DB318B709BA16961C4C410013C25AF5 /* lang_se_FI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_se_FI.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_se_FI.swift; sourceTree = "<group>"; };
+		8EE383B65413E4584FC8286DC6384D4B /* lang_ksh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ksh.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ksh.swift; sourceTree = "<group>"; };
+		8F4EAAF59B39C6D9C50579E237EA564A /* lang_or.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_or.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_or.swift; sourceTree = "<group>"; };
+		90B2358FAE351AD746CE0F48E449519F /* AssociatedValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AssociatedValues.swift; path = Sources/SwiftDate/Supports/AssociatedValues.swift; sourceTree = "<group>"; };
+		90C6F91A2C1A2CAE46C74C611DDD74EF /* lang_fil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fil.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fil.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9525578278D23BE4C95F460BFAE7822A /* TimePeriodGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimePeriodGroup.swift; path = Sources/SwiftDate/TimePeriod/Groups/TimePeriodGroup.swift; sourceTree = "<group>"; };
+		961C0912B6A9DD7FDA9AAA0AABDE8B0E /* lang_te.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_te.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_te.swift; sourceTree = "<group>"; };
+		970C741B1476CA84A4566CB96EECB609 /* lang_uz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_uz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_uz.swift; sourceTree = "<group>"; };
+		97C235D70B632B0308B1318DFBF16345 /* lang_ar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar.swift; sourceTree = "<group>"; };
+		9B092A39AAE9ED12EC0F80F8FB45A604 /* lang_gd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_gd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_gd.swift; sourceTree = "<group>"; };
+		9B93F8658D117D1722C175A1BABB1DD9 /* lang_hsb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_hsb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_hsb.swift; sourceTree = "<group>"; };
+		9E7B20A235C1031F9FD3D423AA26F263 /* ISOParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOParser.swift; path = Sources/SwiftDate/Formatters/ISOParser.swift; sourceTree = "<group>"; };
+		9F6AC54DEE99CD27F445B1D501163E08 /* lang_ko.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ko.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ko.swift; sourceTree = "<group>"; };
+		9F720B17A06F841002CE6FA55A269103 /* TimeInterval+Formatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimeInterval+Formatter.swift"; path = "Sources/SwiftDate/Foundation+Extras/TimeInterval+Formatter.swift"; sourceTree = "<group>"; };
+		A0E7705BD100B51C6193004B33AEDA82 /* lang_ca.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ca.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ca.swift; sourceTree = "<group>"; };
+		A3461D38B9EF50A5DFD0D040CFC68189 /* lang_bsCyrl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bsCyrl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bsCyrl.swift; sourceTree = "<group>"; };
+		A3B9CD950151836464DD9129265551C9 /* lang_br.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_br.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_br.swift; sourceTree = "<group>"; };
+		A461899597375EF856EAF4434366049A /* DateInRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateInRegion.swift; path = Sources/SwiftDate/DateInRegion/DateInRegion.swift; sourceTree = "<group>"; };
+		A6FB485980617C902416DF35DF1BD322 /* Zones.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zones.swift; path = Sources/SwiftDate/Supports/Zones.swift; sourceTree = "<group>"; };
+		A98A4A6E2F3DB95C9D80391B962CD0F4 /* lang_es_US.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_es_US.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_es_US.swift; sourceTree = "<group>"; };
+		AAC86EAEC46B1DD077BCB3D9B773909D /* TimePeriod+Support.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TimePeriod+Support.swift"; path = "Sources/SwiftDate/TimePeriod/TimePeriod+Support.swift"; sourceTree = "<group>"; };
+		AF0F55477F83699D4DB42AE9ED923860 /* String+Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Parser.swift"; path = "Sources/SwiftDate/Foundation+Extras/String+Parser.swift"; sourceTree = "<group>"; };
+		B06D08457B63360081768294D90769F4 /* lang_yi.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_yi.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_yi.swift; sourceTree = "<group>"; };
+		B3D492070B29084F9A70B5F27154DDF8 /* Locales.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Locales.swift; path = Sources/SwiftDate/Supports/Locales.swift; sourceTree = "<group>"; };
+		B7AEC3088D071EC2D53AF382663C612E /* ISOFormatter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISOFormatter.swift; path = Sources/SwiftDate/Formatters/ISOFormatter.swift; sourceTree = "<group>"; };
+		BBD615F070944DFB8B63B6792B104428 /* lang_zh_Hant_MO.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hant_MO.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hant_MO.swift; sourceTree = "<group>"; };
+		BE387CAAB9C68D60FEBD0CE8892A90B0 /* lang_ka.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ka.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ka.swift; sourceTree = "<group>"; };
+		BF3186FFE51996231F2F78367781F8A6 /* lang_sah.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sah.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sah.swift; sourceTree = "<group>"; };
+		BF716D935A5D552EA9F71E6AC31553E0 /* lang_jgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_jgo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_jgo.swift; sourceTree = "<group>"; };
+		C0DD937214AB6C9EB8A653762016F31C /* lang_nn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nn.swift; sourceTree = "<group>"; };
+		C34A8093871288BA52A441238877F664 /* Pods-PodoCalendar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PodoCalendar-acknowledgements.plist"; sourceTree = "<group>"; };
+		C35CE8A7B45CCC1D8E75C9462105CEC9 /* lang_sd.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sd.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sd.swift; sourceTree = "<group>"; };
+		C3D51A6BE3BA5FE79641089278D715AD /* lang_mzn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mzn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mzn.swift; sourceTree = "<group>"; };
+		C4C234EB7A6DF32AF97F7871FC2FDA9F /* lang_si.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_si.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_si.swift; sourceTree = "<group>"; };
+		C55F64A18FB06247D3AF4922F56EAFC1 /* lang_ru.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ru.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ru.swift; sourceTree = "<group>"; };
+		CA1729AD1DA35833A20F45549A5B6FCC /* lang_tr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tr.swift; sourceTree = "<group>"; };
+		CA8E1049DF7D2FCF991B9B57B515E321 /* lang_lo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lo.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lo.swift; sourceTree = "<group>"; };
+		CE0F708B6D6EF6E99004FF58484E84B0 /* Date+Create.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Create.swift"; path = "Sources/SwiftDate/Date/Date+Create.swift"; sourceTree = "<group>"; };
+		CFB36B2FBA8BC3F6AD006EC131276E58 /* lang_ne.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ne.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ne.swift; sourceTree = "<group>"; };
+		CFE9C7BA0F09EC85EE42A630EC49DFF0 /* lang_cy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_cy.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_cy.swift; sourceTree = "<group>"; };
+		D00E8E92A38A1EB4E2A4BE701CC26141 /* lang_tk.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_tk.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_tk.swift; sourceTree = "<group>"; };
+		D017714EA44FC4669169F5383C3D7861 /* lang_mn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_mn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_mn.swift; sourceTree = "<group>"; };
+		D1D787E0665BBC065E3567D3D6710EB2 /* lang_ky.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ky.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ky.swift; sourceTree = "<group>"; };
+		D62C09610D373DC3AB96B056850FBF02 /* Pods-PodoCalendar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PodoCalendar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DAB04F4EC3F6554869E814F40B3D2BE2 /* lang_fur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fur.swift; sourceTree = "<group>"; };
+		DB0EBBD65220DA3BC80EE3D9E8C4009F /* lang_ar_AE.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ar_AE.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ar_AE.swift; sourceTree = "<group>"; };
+		DD8787D26A2A04B260C26839EB67C8EA /* Pods-PodoCalendar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PodoCalendar-umbrella.h"; sourceTree = "<group>"; };
+		DDC6CF0B69BDD16DF30E36797FC54CA3 /* lang_ga.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ga.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ga.swift; sourceTree = "<group>"; };
+		DE1252FEC37CB701953B5D145450963C /* lang_my.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_my.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_my.swift; sourceTree = "<group>"; };
+		DFB6E9091384A5867BCDAF2BD0A57B6A /* lang_it.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_it.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_it.swift; sourceTree = "<group>"; };
+		E031B0675C83370E6CA4E60328F8DC69 /* Commons.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Commons.swift; path = Sources/SwiftDate/Supports/Commons.swift; sourceTree = "<group>"; };
+		E1ADA6722DF4DB15AA463D31C1EEFEB6 /* lang_dz.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_dz.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_dz.swift; sourceTree = "<group>"; };
+		E2C3C7104DFB0BAE0B3627394ADB4760 /* lang_he.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_he.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_he.swift; sourceTree = "<group>"; };
+		E792E50B1E4900D4643249002C68732E /* Pods-PodoCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PodoCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		E7B6396DCA30E34184800BA6B567F60C /* lang_kea.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_kea.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_kea.swift; sourceTree = "<group>"; };
+		E9B5437354B26AB9E6469332C41BFE1B /* lang_fr.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_fr.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_fr.swift; sourceTree = "<group>"; };
+		EA53B4727FE5553CE1284E4CF1B6A784 /* lang_ro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ro.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ro.swift; sourceTree = "<group>"; };
+		EC0711907FA164B55E201B0CD81DED52 /* lang_af.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_af.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_af.swift; sourceTree = "<group>"; };
+		EC517DBD27C92B171DD5183EA34490BA /* Date+Compare.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Date+Compare.swift"; path = "Sources/SwiftDate/Date/Date+Compare.swift"; sourceTree = "<group>"; };
+		F405B0682C36259C44543686CB6913C7 /* lang_lb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_lb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_lb.swift; sourceTree = "<group>"; };
+		F5F53AD7226F37CD52E3707C4F401207 /* lang_bn.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_bn.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_bn.swift; sourceTree = "<group>"; };
+		F9DAA345075C4650B155AE8AE7D1B687 /* lang_ur.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ur.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ur.swift; sourceTree = "<group>"; };
+		F9FF06DDDFFEAEFFD7A1E80EA073DBF9 /* lang_ml.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_ml.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_ml.swift; sourceTree = "<group>"; };
+		FAEAF45EF0CDE47D217868930F5B5FE0 /* lang_sl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_sl.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_sl.swift; sourceTree = "<group>"; };
+		FB87C202CD2C8D37E33388B9ED352E77 /* lang_zh_Hans_SG.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_zh_Hans_SG.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_zh_Hans_SG.swift; sourceTree = "<group>"; };
+		FC1FA21FF0A60289065BCEA56591EA09 /* SwiftDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftDate.swift; path = Sources/SwiftDate/SwiftDate.swift; sourceTree = "<group>"; };
+		FE62CBE16554686517A6FB4130AD42A1 /* lang_nb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = lang_nb.swift; path = Sources/SwiftDate/Formatters/RelativeFormatter/languages/lang_nb.swift; sourceTree = "<group>"; };
+		FFAEC637228385C4B1FD3C87DFDBB01E /* SwiftDate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDate-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF5D12D5D5F04211A5E28EBBD9CDA4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B1B47AE6975DC3B24D0828A145C252 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE1A92D2ABE4F957CB09D0E7B51F911 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				244D1110D53EE7CEBC7F2CF95D052093 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABE93BB77C7A45637B8BA2211C6CAC1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				519B95A9020445B73E64574431D85FD7 /* Pods-PodoCalendar */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47A17D99008137EB7B1573EBDA0F5E33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				47FF70C4EC6EF2C8A705D9FD0CB9F6A8 /* Info.plist */,
+				50FEEBC853271F5DC9A5BD300A4A75CC /* SwiftDate.modulemap */,
+				0A219EDEB7E3BD2B33371D19C415083C /* SwiftDate.xcconfig */,
+				FFAEC637228385C4B1FD3C87DFDBB01E /* SwiftDate-dummy.m */,
+				8C04BD1C0DD43AF4E4FD988AABFCC361 /* SwiftDate-prefix.pch */,
+				4385BAF1CD37B2BEBC2BC3B792A882F5 /* SwiftDate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDate";
+			sourceTree = "<group>";
+		};
+		519B95A9020445B73E64574431D85FD7 /* Pods-PodoCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				22CE0BA8513A65F5D528BC5FBF9CE861 /* Info.plist */,
+				69BAED3B27858AA7D9AACF69C5E0B29F /* Pods-PodoCalendar.modulemap */,
+				D62C09610D373DC3AB96B056850FBF02 /* Pods-PodoCalendar-acknowledgements.markdown */,
+				C34A8093871288BA52A441238877F664 /* Pods-PodoCalendar-acknowledgements.plist */,
+				7DB99CC4F90B1BD28EE21246DB2B3F7F /* Pods-PodoCalendar-dummy.m */,
+				640253CF8F538FF9C0949DA2A653FF30 /* Pods-PodoCalendar-resources.sh */,
+				DD8787D26A2A04B260C26839EB67C8EA /* Pods-PodoCalendar-umbrella.h */,
+				4B7886C09EADF112F09F80A76F160E6C /* Pods-PodoCalendar.debug.xcconfig */,
+				E792E50B1E4900D4643249002C68732E /* Pods-PodoCalendar.release.xcconfig */,
+			);
+			name = "Pods-PodoCalendar";
+			path = "Target Support Files/Pods-PodoCalendar";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7CC709FDDB90C4322FC8BC09A73AAE60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7BC58F3FF21FF0A624C20A498902FA9 /* SwiftDate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7CC709FDDB90C4322FC8BC09A73AAE60 /* Pods */,
+				83644157E764DFAA4B26313AD7798166 /* Products */,
+				0ABE93BB77C7A45637B8BA2211C6CAC1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83644157E764DFAA4B26313AD7798166 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54DB8EEAD20AD783A45A3AECFA81371A /* Pods_PodoCalendar.framework */,
+				34453A2A0711FDCE23C60D2516166C01 /* SwiftDate.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7BC58F3FF21FF0A624C20A498902FA9 /* SwiftDate */ = {
+			isa = PBXGroup;
+			children = (
+				90B2358FAE351AD746CE0F48E449519F /* AssociatedValues.swift */,
+				5B8D1857FE91AEC48CC61302A3438D13 /* Calendars.swift */,
+				E031B0675C83370E6CA4E60328F8DC69 /* Commons.swift */,
+				011AC67735A5874665952DB2A30B47B0 /* Date.swift */,
+				EC517DBD27C92B171DD5183EA34490BA /* Date+Compare.swift */,
+				0321EFFEDBAFB59242D292AC0F8363E4 /* Date+Components.swift */,
+				CE0F708B6D6EF6E99004FF58484E84B0 /* Date+Create.swift */,
+				382D1DA893FA9BC718C229BA2ED81423 /* Date+Math.swift */,
+				3D51C89944B673F9638FF6349BD53F78 /* DateComponents+Extras.swift */,
+				A461899597375EF856EAF4434366049A /* DateInRegion.swift */,
+				6EC4EC5ACDE3770B9E5D19DB707C9415 /* DateInRegion+Compare.swift */,
+				8789224BF146B647D6FEF92CC303C2AB /* DateInRegion+Components.swift */,
+				8465A97EE59220FE5954C5A4A19EE645 /* DateInRegion+Create.swift */,
+				006BC4A4051036A5B75F25D19094F71C /* DateInRegion+Math.swift */,
+				89A1D9CB9CD525D9291A7E262D7B843E /* DateRepresentable.swift */,
+				12C2EC741452B8233061F9F5ADFDF9A9 /* DotNetParserFormatter.swift */,
+				3E8CEF0780A410CBD21A43317EB8CFD4 /* Formatter+Protocols.swift */,
+				1D4C5B51A8FF0A40FF7FBA38811CF454 /* Int+DateComponents.swift */,
+				B7AEC3088D071EC2D53AF382663C612E /* ISOFormatter.swift */,
+				9E7B20A235C1031F9FD3D423AA26F263 /* ISOParser.swift */,
+				EC0711907FA164B55E201B0CD81DED52 /* lang_af.swift */,
+				84BC1077ADF654DC4E5FD4671748B07C /* lang_am.swift */,
+				97C235D70B632B0308B1318DFBF16345 /* lang_ar.swift */,
+				DB0EBBD65220DA3BC80EE3D9E8C4009F /* lang_ar_AE.swift */,
+				61A02771AEA30CFB776FD2EE7A543B0C /* lang_as.swift */,
+				314B35828B28822E21994BFA75387B71 /* lang_az.swift */,
+				2D2E605002FB9A049417469EC01F8825 /* lang_be.swift */,
+				0B5D0DDFA2A663108291F60CC72811C1 /* lang_bg.swift */,
+				F5F53AD7226F37CD52E3707C4F401207 /* lang_bn.swift */,
+				A3B9CD950151836464DD9129265551C9 /* lang_br.swift */,
+				32BE4AF03968B61B2813A2C2258A7566 /* lang_bs.swift */,
+				A3461D38B9EF50A5DFD0D040CFC68189 /* lang_bsCyrl.swift */,
+				A0E7705BD100B51C6193004B33AEDA82 /* lang_ca.swift */,
+				27B1A1E724ACBEB8C7B79FD363FE2360 /* lang_cs.swift */,
+				CFE9C7BA0F09EC85EE42A630EC49DFF0 /* lang_cy.swift */,
+				187C4249F26BE74C1E34F1CC309257FE /* lang_da.swift */,
+				2668B8E8CC7EA5C146D7916285837B22 /* lang_de.swift */,
+				2A7E4E4EC92B2B0E954F41C95B397FCE /* lang_dsb.swift */,
+				E1ADA6722DF4DB15AA463D31C1EEFEB6 /* lang_dz.swift */,
+				7CB0CDD38030E0C9D5C5BD1DC62DBE70 /* lang_ee.swift */,
+				0AC318B65B77846149A37DFAFD3B2F0A /* lang_el.swift */,
+				3D44373825E61F65FD2C05A0F67DC6BD /* lang_en.swift */,
+				237FA31D5300598DF40491316926A951 /* lang_es.swift */,
+				6376A3E8CAF9F7AC37B0513A8A1DDE7E /* lang_es_AR.swift */,
+				71B9A43B2E00BCA01351C9BB580EF0E3 /* lang_es_MX.swift */,
+				07F67F64756A3F117E7D18809F9D34D5 /* lang_es_PY.swift */,
+				A98A4A6E2F3DB95C9D80391B962CD0F4 /* lang_es_US.swift */,
+				18957BF0D7D08E626BE88DD2C62EB994 /* lang_et.swift */,
+				8762477264B88B2679671AC2433914AF /* lang_eu.swift */,
+				4797B9009D5AF4B243E7A650C2233B8E /* lang_fa.swift */,
+				263E2C951D80C12CCE144736C56D07E1 /* lang_fi.swift */,
+				90C6F91A2C1A2CAE46C74C611DDD74EF /* lang_fil.swift */,
+				05A91A9CD1C6CB307F231F405037EAFD /* lang_fo.swift */,
+				E9B5437354B26AB9E6469332C41BFE1B /* lang_fr.swift */,
+				11E4AE729BCE6359371BC1D6A23EA4E4 /* lang_fr_CA.swift */,
+				DAB04F4EC3F6554869E814F40B3D2BE2 /* lang_fur.swift */,
+				712A1E65DBCC7B2786AAE9B36E63E8F0 /* lang_fy.swift */,
+				DDC6CF0B69BDD16DF30E36797FC54CA3 /* lang_ga.swift */,
+				9B092A39AAE9ED12EC0F80F8FB45A604 /* lang_gd.swift */,
+				6C8926F10340F0D6B93F5C6BC6D9B41C /* lang_gl.swift */,
+				2BF1AF4EF9C78EC7D58B3F6CBC7613F5 /* lang_gu.swift */,
+				E2C3C7104DFB0BAE0B3627394ADB4760 /* lang_he.swift */,
+				27516D5A014E73824BE3FEAF665B0D78 /* lang_hi.swift */,
+				7F6946A9243C616E85B719516FF285DE /* lang_hr.swift */,
+				9B93F8658D117D1722C175A1BABB1DD9 /* lang_hsb.swift */,
+				1B261DD45C319CE31EE052977531C644 /* lang_hu.swift */,
+				655E501CFD0ACF10046BA0475BE0CDEC /* lang_hy.swift */,
+				83FBB77C65AA53CEDC0A3EE5AEE8D20F /* lang_id.swift */,
+				555C90B0EE9FF9DFB01AAE8541612315 /* lang_is.swift */,
+				DFB6E9091384A5867BCDAF2BD0A57B6A /* lang_it.swift */,
+				02B698BDD6F9DAD378572AE4E9255CB3 /* lang_ja.swift */,
+				BF716D935A5D552EA9F71E6AC31553E0 /* lang_jgo.swift */,
+				BE387CAAB9C68D60FEBD0CE8892A90B0 /* lang_ka.swift */,
+				E7B6396DCA30E34184800BA6B567F60C /* lang_kea.swift */,
+				829F61E87D0D4ED928BEBBBF83B60F97 /* lang_kk.swift */,
+				83B4EBF81F1D3060FF3CEE72DDDD7CA1 /* lang_kl.swift */,
+				29A625EBDB385515EBB09E4FC814ACA1 /* lang_km.swift */,
+				51754DDBC3E6EA336BC73427BA1C3F18 /* lang_kn.swift */,
+				9F6AC54DEE99CD27F445B1D501163E08 /* lang_ko.swift */,
+				0AC1486BE9F672DF2F07015C7990DA0B /* lang_kok.swift */,
+				8EE383B65413E4584FC8286DC6384D4B /* lang_ksh.swift */,
+				D1D787E0665BBC065E3567D3D6710EB2 /* lang_ky.swift */,
+				F405B0682C36259C44543686CB6913C7 /* lang_lb.swift */,
+				105BA51171D839C28B05266098945387 /* lang_lkt.swift */,
+				CA8E1049DF7D2FCF991B9B57B515E321 /* lang_lo.swift */,
+				6F2E71FF44C83881F495C648F94F84D8 /* lang_lt.swift */,
+				0E6CBEDB03E8C2BBD7D4B218B78A1A26 /* lang_lv.swift */,
+				1C94E06FADD10F20A99E64F3B1CBAF0B /* lang_mk.swift */,
+				F9FF06DDDFFEAEFFD7A1E80EA073DBF9 /* lang_ml.swift */,
+				D017714EA44FC4669169F5383C3D7861 /* lang_mn.swift */,
+				3FB4136F3CBC9A75EC35680D38FA6192 /* lang_mr.swift */,
+				2803C9925D0EC47E68EFB01EF317E311 /* lang_ms.swift */,
+				5C1BF57034733D8BD58F80FD2C5B62D4 /* lang_mt.swift */,
+				DE1252FEC37CB701953B5D145450963C /* lang_my.swift */,
+				C3D51A6BE3BA5FE79641089278D715AD /* lang_mzn.swift */,
+				FE62CBE16554686517A6FB4130AD42A1 /* lang_nb.swift */,
+				CFB36B2FBA8BC3F6AD006EC131276E58 /* lang_ne.swift */,
+				331B0D4C8FEB4C4F567C1EFF0E741DFA /* lang_nl.swift */,
+				C0DD937214AB6C9EB8A653762016F31C /* lang_nn.swift */,
+				8F4EAAF59B39C6D9C50579E237EA564A /* lang_or.swift */,
+				61CF7EA3F5A30467AC754BF4AB19406E /* lang_pa.swift */,
+				8321FEF3438289D62BA4F5A57848D647 /* lang_pl.swift */,
+				556A876BABC9CDFC2AC67C50107D6598 /* lang_ps.swift */,
+				40518140EBF08469B38BF03E3FBF7F0C /* lang_pt.swift */,
+				EA53B4727FE5553CE1284E4CF1B6A784 /* lang_ro.swift */,
+				C55F64A18FB06247D3AF4922F56EAFC1 /* lang_ru.swift */,
+				BF3186FFE51996231F2F78367781F8A6 /* lang_sah.swift */,
+				C35CE8A7B45CCC1D8E75C9462105CEC9 /* lang_sd.swift */,
+				865B31E9826BBB8FDD19BBB326AD013E /* lang_se.swift */,
+				8DB318B709BA16961C4C410013C25AF5 /* lang_se_FI.swift */,
+				C4C234EB7A6DF32AF97F7871FC2FDA9F /* lang_si.swift */,
+				4D2B50C8191A9AFB057030E0168021FA /* lang_sk.swift */,
+				FAEAF45EF0CDE47D217868930F5B5FE0 /* lang_sl.swift */,
+				7AF6A9BC16D45A330748FA149D97B8F7 /* lang_sq.swift */,
+				3A6AF62437607E082FF6D5849EA743D6 /* lang_sr.swift */,
+				01A86016EB4FFF99422177BD3F125323 /* lang_sr_Latn.swift */,
+				765F203A2F19A6A307E2ACBFE676FED8 /* lang_sv.swift */,
+				10419BC74CE06C2DEB5AA5BA50312577 /* lang_sw.swift */,
+				501BA58809ECB1CD5229FB00EDCFB859 /* lang_ta.swift */,
+				961C0912B6A9DD7FDA9AAA0AABDE8B0E /* lang_te.swift */,
+				60C8182D82AF60E563452DE8A6C42D2D /* lang_th.swift */,
+				4D25F43467079AEE62277B332AF9E5D0 /* lang_ti.swift */,
+				D00E8E92A38A1EB4E2A4BE701CC26141 /* lang_tk.swift */,
+				674DBA32CC5BC1834BA100E7C2EB1122 /* lang_to.swift */,
+				CA1729AD1DA35833A20F45549A5B6FCC /* lang_tr.swift */,
+				00E4541F1E9CE1B6CF0F817A1F09B153 /* lang_ug.swift */,
+				4F3BBBCF4A952CD95C75F86951129CDD /* lang_uk.swift */,
+				F9DAA345075C4650B155AE8AE7D1B687 /* lang_ur.swift */,
+				2F467BC21C0B96A26EF4417196D67BFA /* lang_ur_IN.swift */,
+				970C741B1476CA84A4566CB96EECB609 /* lang_uz.swift */,
+				1EBC4D2006A2E4F25A9923570ABA086A /* lang_uz_Cyrl.swift */,
+				68175F87D213C5258C54A690CB08ECBB /* lang_vi.swift */,
+				6BC6E71A48C1E180588D20176905E4A1 /* lang_wae.swift */,
+				B06D08457B63360081768294D90769F4 /* lang_yi.swift */,
+				5E9E67023EAEE0D5A1B8C5ECC5F43DD4 /* lang_yue_Hans.swift */,
+				455FEA8722B81598478383E96F9C88FD /* lang_yue_Hant.swift */,
+				502B85C17A8728056ADBEE1E777BFB57 /* lang_zh.swift */,
+				09EE2121E2CD615163B05866E2D04230 /* lang_zh_Hans_HK.swift */,
+				510A163BF72C121470E064E2DD4F3106 /* lang_zh_Hans_MO.swift */,
+				FB87C202CD2C8D37E33388B9ED352E77 /* lang_zh_Hans_SG.swift */,
+				5296F147B9283B37F4B7BAF439372D6F /* lang_zh_Hant.swift */,
+				6E1E6F2B97546FFA3653E3CA2E2BC41D /* lang_zh_Hant_HK.swift */,
+				BBD615F070944DFB8B63B6792B104428 /* lang_zh_Hant_MO.swift */,
+				1E706867D3AB480D4C196D6E67063A66 /* lang_zu.swift */,
+				B3D492070B29084F9A70B5F27154DDF8 /* Locales.swift */,
+				8C550EE2A3FCB8D5CF24D7420E8A385D /* Region.swift */,
+				63950FEC396AE6131ED076B6FE6CD295 /* RelativeFormatter.swift */,
+				01495811236A1A31117D9F0B815B3A80 /* RelativeFormatter+Style.swift */,
+				AF0F55477F83699D4DB42AE9ED923860 /* String+Parser.swift */,
+				FC1FA21FF0A60289065BCEA56591EA09 /* SwiftDate.swift */,
+				9F720B17A06F841002CE6FA55A269103 /* TimeInterval+Formatter.swift */,
+				1F638D50EDDC178BF9C67BE00DB258FC /* TimePeriod.swift */,
+				AAC86EAEC46B1DD077BCB3D9B773909D /* TimePeriod+Support.swift */,
+				5C6CF3B325677217D7C14BE7711BF071 /* TimePeriodChain.swift */,
+				00DBBC5606BC364C5A3E228B346935FE /* TimePeriodCollection.swift */,
+				9525578278D23BE4C95F460BFAE7822A /* TimePeriodGroup.swift */,
+				57507A5762162D690BBDF1044BE31051 /* TimePeriodProtocol.swift */,
+				A6FB485980617C902416DF35DF1BD322 /* Zones.swift */,
+				47A17D99008137EB7B1573EBDA0F5E33 /* Support Files */,
+			);
+			name = SwiftDate;
+			path = SwiftDate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9361AB812B9357A41B920FB4556AD06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0216355FB03051F47AEABF49CDEBC5EA /* Pods-PodoCalendar-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADB024AD38941FE598A6716C14287B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CBC8864F8CCBE3CC22EB4B403723C30 /* SwiftDate-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9AB77D2B9ABD5281C561A689F9DE24DD /* Pods-PodoCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524F43E55B21AE528C3B4D8FBB6F2CBC /* Build configuration list for PBXNativeTarget "Pods-PodoCalendar" */;
+			buildPhases = (
+				D0208CE0078158836C85F65EFB54D7B6 /* Sources */,
+				CAF5D12D5D5F04211A5E28EBBD9CDA4B /* Frameworks */,
+				A9361AB812B9357A41B920FB4556AD06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BFD751C053BE0C67552182527A1523C /* PBXTargetDependency */,
+			);
+			name = "Pods-PodoCalendar";
+			productName = "Pods-PodoCalendar";
+			productReference = 54DB8EEAD20AD783A45A3AECFA81371A /* Pods_PodoCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9F3EAE56D85C78E4A8B0F291A73EB264 /* SwiftDate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C3AED08920434B402EAB947891D78BA /* Build configuration list for PBXNativeTarget "SwiftDate" */;
+			buildPhases = (
+				E959D3FBD0353E6664E487B45FEAEB96 /* Sources */,
+				EFE1A92D2ABE4F957CB09D0E7B51F911 /* Frameworks */,
+				AADB024AD38941FE598A6716C14287B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDate;
+			productName = SwiftDate;
+			productReference = 34453A2A0711FDCE23C60D2516166C01 /* SwiftDate.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 83644157E764DFAA4B26313AD7798166 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AB77D2B9ABD5281C561A689F9DE24DD /* Pods-PodoCalendar */,
+				9F3EAE56D85C78E4A8B0F291A73EB264 /* SwiftDate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0208CE0078158836C85F65EFB54D7B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1583A02682893E38D1CC5B0611D6C8B /* Pods-PodoCalendar-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E959D3FBD0353E6664E487B45FEAEB96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				685C183BE9E55E5A04AF5B8C3B690AD6 /* AssociatedValues.swift in Sources */,
+				EF18069EC1ACC4053A69CB691512C1E9 /* Calendars.swift in Sources */,
+				075A3CF93A1D76E4EED7BEED8938A13D /* Commons.swift in Sources */,
+				0172F47593513E87565410AC4E8E753D /* Date+Compare.swift in Sources */,
+				6FE5AE9EF7FD17D17D90209C6CABC644 /* Date+Components.swift in Sources */,
+				F015AB261257DF0392F179E99FF85BD1 /* Date+Create.swift in Sources */,
+				E7FE16E24CAEC119C675995DCC92BC28 /* Date+Math.swift in Sources */,
+				10DFEA6F553D42160175D3351A61CA4B /* Date.swift in Sources */,
+				FF641E7E1841EC052F0CC81CCF8C28BC /* DateComponents+Extras.swift in Sources */,
+				56D2E571B0364355D283DD212D5C2940 /* DateInRegion+Compare.swift in Sources */,
+				427B673ADD4A9869C45D14FAE9F0D0D9 /* DateInRegion+Components.swift in Sources */,
+				B306FFFBE0E898966A51BBA9CF2E509C /* DateInRegion+Create.swift in Sources */,
+				4EA61ACA5C14EF209C8ACBF4F2A766CD /* DateInRegion+Math.swift in Sources */,
+				F8FDABB0AFE78F6E071EF7CE43628C8E /* DateInRegion.swift in Sources */,
+				F30BE4DF4B8C598DB85645F602E34659 /* DateRepresentable.swift in Sources */,
+				4C7F88C120D145DB31D3F69FB187F712 /* DotNetParserFormatter.swift in Sources */,
+				E2FB4A3CE4410DE9EF86D1CBAD763B22 /* Formatter+Protocols.swift in Sources */,
+				F40B2B5ACC4838B0E54DA9EBE54EB183 /* Int+DateComponents.swift in Sources */,
+				2B005547CB5B5AEF89E997C618013C44 /* ISOFormatter.swift in Sources */,
+				059A4C3F8AF78592585454369A412A4E /* ISOParser.swift in Sources */,
+				7DB11802F2D611F3709B77BB89751474 /* lang_af.swift in Sources */,
+				C412C83AEA2C976677E27CF32DFE7F42 /* lang_am.swift in Sources */,
+				CCC953F52F30008E8A04C140DCC23D63 /* lang_ar.swift in Sources */,
+				22CD4E6258F9D9C1870E294729F2D612 /* lang_ar_AE.swift in Sources */,
+				121DF1EE1E473771777BD045F5185BD2 /* lang_as.swift in Sources */,
+				0A1908009E598F532B275E9A4690C788 /* lang_az.swift in Sources */,
+				4DE914E7BF1E23438648D2120E362888 /* lang_be.swift in Sources */,
+				F858034F2BD0CD4E0ADBE85EDF13C172 /* lang_bg.swift in Sources */,
+				8E671E92E7B1A6D3409B87BA13B063A6 /* lang_bn.swift in Sources */,
+				6645CB7F533D2154B3504994A6AD6555 /* lang_br.swift in Sources */,
+				96AD06EBABDB30C8B4E7EA439E24D7C2 /* lang_bs.swift in Sources */,
+				BD6D14F3B5E4F42B39B33B47B1DA59DF /* lang_bsCyrl.swift in Sources */,
+				E5CBA4D6EBC37789D3FD2498462BCE82 /* lang_ca.swift in Sources */,
+				E47E094BC2E3D6D46D02EA34B3AD82B0 /* lang_cs.swift in Sources */,
+				20F6CDD16EB08745415D330E421F7959 /* lang_cy.swift in Sources */,
+				B1532526A33CADB8C910417CF2AC1BE4 /* lang_da.swift in Sources */,
+				0D3D1D60286C21495DBFD582BE5D88A6 /* lang_de.swift in Sources */,
+				D7ED0F8B7A70FB1160F8E829AE786D01 /* lang_dsb.swift in Sources */,
+				100093EC4520C27BF8B5B27F5915EFBB /* lang_dz.swift in Sources */,
+				A3D1A7662B49BD64B8618D62D52A4CF3 /* lang_ee.swift in Sources */,
+				1C19D5AA2CF7BA292A27286D42E9940C /* lang_el.swift in Sources */,
+				30326D3E09B1AA809F1F14E64F642BC8 /* lang_en.swift in Sources */,
+				A92F972573CA97FB67D1853384AE1BB8 /* lang_es.swift in Sources */,
+				A367698C5127DDC44CDFDCB65D02E2BC /* lang_es_AR.swift in Sources */,
+				E1525C98AC28911516CEC042D77895B2 /* lang_es_MX.swift in Sources */,
+				401C3DD78DAD187548C34BAB13CB7429 /* lang_es_PY.swift in Sources */,
+				2C07BC714137A2706B6B151B6018D19C /* lang_es_US.swift in Sources */,
+				4272C6C06ED0F158B78AC6EB0E7E0AE6 /* lang_et.swift in Sources */,
+				510657A393432B7DB9B748B59B68F054 /* lang_eu.swift in Sources */,
+				3B05A6679EDA198E6211AE836D8162FB /* lang_fa.swift in Sources */,
+				36F09C11586D751D1882A250F23D0077 /* lang_fi.swift in Sources */,
+				F9F3B22D912C1F0675AEE53B401CCA32 /* lang_fil.swift in Sources */,
+				1BD8AE4FDCCC3B24E0555FF9DA5C6B3C /* lang_fo.swift in Sources */,
+				BB1C0338C1C64C65CD05D612F5ADE712 /* lang_fr.swift in Sources */,
+				669D15D16787EE4AC8A1550F841DAB95 /* lang_fr_CA.swift in Sources */,
+				D67F3385094A30795D1AEA45685CBCB2 /* lang_fur.swift in Sources */,
+				ED5C4F83F6B4929268AA245928C4AAAE /* lang_fy.swift in Sources */,
+				BECAFF597E3B244BA2BE894CE5C75B55 /* lang_ga.swift in Sources */,
+				B711918729481C86B26A51255BC961AA /* lang_gd.swift in Sources */,
+				C6FCEB71BBBB75BC00C57D961F3DE723 /* lang_gl.swift in Sources */,
+				27F3ACB4074170178FA60825ECCA9539 /* lang_gu.swift in Sources */,
+				465DB81B2D3F1E5E66ECCBFE2E144D47 /* lang_he.swift in Sources */,
+				942952DDA716F8C3111FAA5C6E1AD89E /* lang_hi.swift in Sources */,
+				E27FA33308ABA1F8AC4042C4FC0148EC /* lang_hr.swift in Sources */,
+				51B1B504C6D42C3750795EAC17F812D8 /* lang_hsb.swift in Sources */,
+				437CCC3A16ACCDF4419573B9BD3C9850 /* lang_hu.swift in Sources */,
+				0B27E6F5D9EB452526D4CDF0E7C14BAE /* lang_hy.swift in Sources */,
+				99755036F3B0D23E5DD72A6538935839 /* lang_id.swift in Sources */,
+				2D8857BC56EF40B4F407F861E891F082 /* lang_is.swift in Sources */,
+				D54958BDB6A4C77897215810B33AA5E3 /* lang_it.swift in Sources */,
+				311BAC7F0D1C69806301B66C1EB60469 /* lang_ja.swift in Sources */,
+				35234CE663B9EDC6B5DB346643857803 /* lang_jgo.swift in Sources */,
+				E27AAC958E0AB34FBAA803CADDA11CFD /* lang_ka.swift in Sources */,
+				F521EDB5F2B68579D00D2323A8D7AA45 /* lang_kea.swift in Sources */,
+				95F4293B3E82C625386BD7D64BC7C65B /* lang_kk.swift in Sources */,
+				9C0A0357DBAAFC73CB9EECF530187A87 /* lang_kl.swift in Sources */,
+				71BDA30DBBB422E89FCCADE2EDEDD822 /* lang_km.swift in Sources */,
+				D0FB4EFDDEFF260DAEF453AC459C45C1 /* lang_kn.swift in Sources */,
+				75C35B507C10661C85D28107ED450FB8 /* lang_ko.swift in Sources */,
+				2C87961A0F57B39CB33AF95DC0451E47 /* lang_kok.swift in Sources */,
+				D174772240FDFB5F214E9B55F6396EB7 /* lang_ksh.swift in Sources */,
+				A24FB59DDE72078B4D5BF5B0D21A8003 /* lang_ky.swift in Sources */,
+				00C87CF3563B9FCE54FC98EDBC0D87C9 /* lang_lb.swift in Sources */,
+				93DEA10452B999B9BD3BF82187A92C64 /* lang_lkt.swift in Sources */,
+				78C24FA1746A84FB7B3809FA1CBE97F4 /* lang_lo.swift in Sources */,
+				A69C6456583574FFE764E3CE86DA91FE /* lang_lt.swift in Sources */,
+				D9935C54BBC266A6615EC85FD984F2E5 /* lang_lv.swift in Sources */,
+				5297734EB890AB7A993AC65783B42278 /* lang_mk.swift in Sources */,
+				13238F94EDFA155BEF10E01F16C911E9 /* lang_ml.swift in Sources */,
+				B7E0AAD3EFDC681D33201A815B4AF96B /* lang_mn.swift in Sources */,
+				99D23349BCD5667ECE6F168EBAB89BD7 /* lang_mr.swift in Sources */,
+				E4C0C0078004609496A4EF5667996B82 /* lang_ms.swift in Sources */,
+				3B6564FB1988C3159ACA29AE400D326A /* lang_mt.swift in Sources */,
+				DCE02AD3FB0B551E13CD1CD4005C0E5E /* lang_my.swift in Sources */,
+				68F409482AFA258F57E8F89C45BD3966 /* lang_mzn.swift in Sources */,
+				1F4E7044E645889A10F276832BED84D8 /* lang_nb.swift in Sources */,
+				D46A0B30409F01FFCD93FAA9BCCC45D3 /* lang_ne.swift in Sources */,
+				8F8D2BC7F660D6BB787ACA70A0477A82 /* lang_nl.swift in Sources */,
+				4E7602DAC1EE1E3D6DABC99868AC5131 /* lang_nn.swift in Sources */,
+				CDA386529D6CBB5D545789D3674643AE /* lang_or.swift in Sources */,
+				517637EB4C60887DB2D91A41B281B33B /* lang_pa.swift in Sources */,
+				AB886659777291C94C43A019D5BCB394 /* lang_pl.swift in Sources */,
+				51EAD8E1279E517F983ED68B1CB40642 /* lang_ps.swift in Sources */,
+				D67A02ED0013035E455AAC438A263506 /* lang_pt.swift in Sources */,
+				A8F3CCB055A3BE715B4B54C02A5E208C /* lang_ro.swift in Sources */,
+				67E77ACD7F8B3F953CF71E4DFFE30BEC /* lang_ru.swift in Sources */,
+				CFE97BA2DA76254A9203B2D4D81EEA0D /* lang_sah.swift in Sources */,
+				CE022D9649B2D7C7CF609B7C696D92FC /* lang_sd.swift in Sources */,
+				7BF412D9FC25CDFFCBA5D2539FDB5928 /* lang_se.swift in Sources */,
+				F7B9471241E314865EC19BDA6316F153 /* lang_se_FI.swift in Sources */,
+				2C07BA2466A491C2E981F0E4D227593D /* lang_si.swift in Sources */,
+				71E5C49BAB2E0B7FE136B0EF0099729E /* lang_sk.swift in Sources */,
+				660689981D45E7E6B660E3E0A54882F3 /* lang_sl.swift in Sources */,
+				BECA7748429D007EB40FC0AE2272CB60 /* lang_sq.swift in Sources */,
+				C251E45462F9A3A0C8EF93311A94E822 /* lang_sr.swift in Sources */,
+				783049476891B2D29EB30E0FD61E8C72 /* lang_sr_Latn.swift in Sources */,
+				6BD090F6076CB00CF1BEF0CC9DAFE4E0 /* lang_sv.swift in Sources */,
+				81437139AB0BD989CC65962DF77D072B /* lang_sw.swift in Sources */,
+				68810D4C44EC033859CA8A8122F359D5 /* lang_ta.swift in Sources */,
+				6CF740BCDE3FEEBBEC8B77BCD11EDECE /* lang_te.swift in Sources */,
+				4AC0C88B1A719969BFE28FFC306776F0 /* lang_th.swift in Sources */,
+				BA77D592FCEC6A7D5FE15E365DCFBDA8 /* lang_ti.swift in Sources */,
+				AFDD80D3FD69381C2BED32FFA3E25B4B /* lang_tk.swift in Sources */,
+				5EFAC2BEC37F8640B09428FDECE3D396 /* lang_to.swift in Sources */,
+				B25A9444BBD30C405251C8F667A787FB /* lang_tr.swift in Sources */,
+				707EA91743556D1926EF6D30C515B067 /* lang_ug.swift in Sources */,
+				5420B30465B26ECB4B534584792A0718 /* lang_uk.swift in Sources */,
+				0C4AD531336B5761467433E349ACE171 /* lang_ur.swift in Sources */,
+				2DD1474759DEFEDEB7C014CDED4766ED /* lang_ur_IN.swift in Sources */,
+				047AB92563EA41614945587F4452A245 /* lang_uz.swift in Sources */,
+				AA6C138B3539DFE3AEC90A385206EAA1 /* lang_uz_Cyrl.swift in Sources */,
+				B834315FB89B43CFE021CC1934B05869 /* lang_vi.swift in Sources */,
+				BE5777007380A4915D169732CCCD9189 /* lang_wae.swift in Sources */,
+				42AE2404E481F9FF7558A0164548C279 /* lang_yi.swift in Sources */,
+				4A24C8746DC6CC6B361BCBD6A85C5B55 /* lang_yue_Hans.swift in Sources */,
+				9D3A89BCE8C56BA16C023D7E3C362D3A /* lang_yue_Hant.swift in Sources */,
+				CF0BBCCFDB5D3FC111D3C315703E6B58 /* lang_zh.swift in Sources */,
+				5846CF84382D760E364DC74F4FC074DC /* lang_zh_Hans_HK.swift in Sources */,
+				9F9000FCA222C498A7FED0E27C967517 /* lang_zh_Hans_MO.swift in Sources */,
+				ECAC8403F72C43DAC8E9F71FB8D5D515 /* lang_zh_Hans_SG.swift in Sources */,
+				4ABE474D15E7C5E3A92B233C7EAAE9FE /* lang_zh_Hant.swift in Sources */,
+				2AF8979D301044BA72C32FACDAFD16B3 /* lang_zh_Hant_HK.swift in Sources */,
+				C2E27564B14808E7F149E5D869E450CE /* lang_zh_Hant_MO.swift in Sources */,
+				BAC46F2D35B998BF2D89FA9FA23D61B0 /* lang_zu.swift in Sources */,
+				2A1D3B7AE29F49DDC5D467ABDBEF6640 /* Locales.swift in Sources */,
+				3C2E0AE1DF4207A57673232086E1F606 /* Region.swift in Sources */,
+				D6C74B05359DA4A01805730BC467FFE8 /* RelativeFormatter+Style.swift in Sources */,
+				9177CE07B9A804837504FE6EDEBFFDA3 /* RelativeFormatter.swift in Sources */,
+				A6339421635779F2B36624971950AB78 /* String+Parser.swift in Sources */,
+				520399DC905C9B0EA1CA0EDC277DAC56 /* SwiftDate-dummy.m in Sources */,
+				E21BD9B69EDAA04F24E8055CCBC452BE /* SwiftDate.swift in Sources */,
+				CFC4B047C574E08C0780F1FE3828E0FC /* TimeInterval+Formatter.swift in Sources */,
+				E52645CA797EB11E197413C7C2C12E47 /* TimePeriod+Support.swift in Sources */,
+				4F329FBDB74310B2AF3D7B73D483A16E /* TimePeriod.swift in Sources */,
+				B03770A98CE3200D4F46E1BCDA44CB39 /* TimePeriodChain.swift in Sources */,
+				E71E4E9D1C29477E3BC89079EC44D8B4 /* TimePeriodCollection.swift in Sources */,
+				3BB36EAC61A6795C06212CEE8166CD83 /* TimePeriodGroup.swift in Sources */,
+				A8F2724D9A700946DD9F0B9A0DD21B75 /* TimePeriodProtocol.swift in Sources */,
+				CE3ABF2D83E2BF6B61B0D1178071A5CC /* Zones.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BFD751C053BE0C67552182527A1523C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDate;
+			target = 9F3EAE56D85C78E4A8B0F291A73EB264 /* SwiftDate */;
+			targetProxy = 94647E582EC1F112BA16940BBF45403B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		282F6F57F58A46766B6109AF3F58DC15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A219EDEB7E3BD2B33371D19C415083C /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		553022A828EE1991F07D2D73F565AEF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		58CE816B060A41D32CEC095441D0E3E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59A19966106C98C286CA003D5E319CE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7886C09EADF112F09F80A76F160E6C /* Pods-PodoCalendar.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PodoCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PodoCalendar/Pods-PodoCalendar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E042898217C015C180D95BE18336F68D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A219EDEB7E3BD2B33371D19C415083C /* SwiftDate.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDate/SwiftDate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDate/SwiftDate.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDate;
+				PRODUCT_NAME = SwiftDate;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF7A4D9CCFE87DA1865AA626A91F93D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E792E50B1E4900D4643249002C68732E /* Pods-PodoCalendar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PodoCalendar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PodoCalendar/Pods-PodoCalendar.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C3AED08920434B402EAB947891D78BA /* Build configuration list for PBXNativeTarget "SwiftDate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E042898217C015C180D95BE18336F68D /* Debug */,
+				282F6F57F58A46766B6109AF3F58DC15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553022A828EE1991F07D2D73F565AEF8 /* Debug */,
+				58CE816B060A41D32CEC095441D0E3E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524F43E55B21AE528C3B4D8FBB6F2CBC /* Build configuration list for PBXNativeTarget "Pods-PodoCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59A19966106C98C286CA003D5E319CE6 /* Debug */,
+				FF7A4D9CCFE87DA1865AA626A91F93D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
