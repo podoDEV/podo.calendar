@@ -80,6 +80,7 @@
 				2DD981DA21611EA900DAA814 /* Classes */,
 				2D41EDA62160F1130009A3A3 /* PodoCalendar.h */,
 				2D41EDA72160F1130009A3A3 /* Info.plist */,
+				2DD981DF21611FA700DAA814 /* Localizable.strings */,
 			);
 			path = PodoCalendar;
 			sourceTree = "<group>";
@@ -97,7 +98,6 @@
 				2DD981D2216119AE00DAA814 /* UIColor+Additions.swift */,
 				2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */,
 				2DD981D821611D6100DAA814 /* SelectType.swift */,
-				2DD981DF21611FA700DAA814 /* Localizable.strings */,
 			);
 			path = Classes;
 			sourceTree = "<group>";

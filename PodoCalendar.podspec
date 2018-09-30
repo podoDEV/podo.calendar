@@ -14,7 +14,9 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.source_files     = 'PodoCalendar/PodoCalendar/Classes/**/*'
-  
+  s.resource_bundles = {
+    'PodoCalendar' => ['PodoCalendar/PodoCalendar/*.lproj/*.strings']
+  }
   s.frameworks = 'UIKit'
   s.dependency 'SwiftDate', '~> 5.0.9'
 end
