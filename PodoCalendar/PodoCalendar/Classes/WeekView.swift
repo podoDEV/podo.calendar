@@ -1,13 +1,13 @@
 //
 //  WeekView.swift
-//  Podolist
+//  PodoCalendar
 //
-//  Copyright © 2018년 podo. All rights reserved.
+//  Copyright © 2018 podo. All rights reserved.
 //
 
 import SwiftDate
 
-class WeekView: UIView {
+internal class WeekView: UIView {
 
     var days = [DayView]()
     var date: DateInRegion? {

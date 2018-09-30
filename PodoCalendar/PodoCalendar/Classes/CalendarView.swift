@@ -1,13 +1,13 @@
 //
 //  CalendarView.swift
-//  Podolist
+//  PodoCalendar
 //
-//  Copyright © 2018년 podo. All rights reserved.
+//  Copyright © 2018 podo. All rights reserved.
 //
 
 import SwiftDate
 
-class CalendarView: UIScrollView {
+internal class CalendarView: UIScrollView {
 
     var months = [MonthView]()
     var currentPosition = 1
@@ -52,8 +52,6 @@ class CalendarView: UIScrollView {
         }
         contentSize = CGSize(width: loadedMonthsWidth, height: bounds.size.height)
     }
-
-    
 
     func move(to toDirection: Direction) {
         let page1 = months[0]
@@ -101,6 +99,7 @@ class CalendarView: UIScrollView {
     }
 }
 
-protocol CalendarViewDelegate {
-
+internal enum Direction: Int {
+    case prev = 0
+    case next = 2
 }

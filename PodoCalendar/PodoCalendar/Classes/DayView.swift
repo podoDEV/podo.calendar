@@ -1,13 +1,13 @@
 //
 //  DayView.swift
-//  Podolist
+//  PodoCalendar
 //
-//  Copyright © 2018년 podo. All rights reserved.
+//  Copyright © 2018 podo. All rights reserved.
 //
 
 import SwiftDate
 
-class DayView: UIView {
+internal class DayView: UIView {
 
     lazy var dateLabel: UILabel = {
         let label = UILabel()
@@ -132,7 +132,7 @@ class DayView: UIView {
         }
     }
 
-    func updateSelectUI(type: selectType) {
+    func updateSelectUI(type: SelectType) {
         switch type {
         case .begin:
             dateLabel.textColor = .selectedDayTextColor
@@ -154,57 +154,5 @@ class DayView: UIView {
 
     @objc func onSelected() {
         NotificationCenter.default.post(name: .dateDidSelected, object: self.date)
-    }
-}
-
-extension NSNotification.Name {
-    static let dateDidSelected = Notification.Name("date_did_selected")
-}
-
-enum selectType {
-    case begin
-    case single
-    case end
-}
-
-struct Appearance {
-    static var normalDayBackgroundColor = UIColor(hex: 0xF9F9F9)
-    static var selectedDayBackgroundColor = UIColor(hex: 0xD6ABFB)
-    static var todayBackgroundColor = UIColor(hex: 0xF9F9F9)
-    static var normalDayTextColor = UIColor(hex: 0x9000FE)
-    static var selectedDayTextColor = UIColor(hex: 0x9000FE)
-    static var todayTextColor = UIColor(hex: 0x9000FE)
-    static var otherMonthDayTextColor = UIColor(hex: 0xEEEEEE)
-}
-
-extension UIColor {
-
-    static var normalDayBackgroundColor: UIColor {
-        get { return Appearance.normalDayBackgroundColor }
-        set { Appearance.normalDayBackgroundColor = newValue }
-    }
-    static var selectedDayBackgroundColor: UIColor {
-        get { return Appearance.selectedDayBackgroundColor }
-        set { Appearance.selectedDayBackgroundColor = newValue }
-    }
-    static var todayBackgroundColor: UIColor {
-        get { return Appearance.todayBackgroundColor }
-        set { Appearance.todayBackgroundColor = newValue }
-    }
-    static var normalDayTextColor: UIColor {
-        get { return Appearance.normalDayTextColor }
-        set { Appearance.normalDayTextColor = newValue }
-    }
-    static var selectedDayTextColor: UIColor {
-        get { return Appearance.selectedDayTextColor }
-        set { Appearance.selectedDayTextColor = newValue }
-    }
-    static var todayTextColor: UIColor {
-        get { return Appearance.todayTextColor }
-        set { Appearance.todayTextColor = newValue }
-    }
-    static var otherMonthDayTextColor: UIColor {
-        get { return Appearance.otherMonthDayTextColor }
-        set { Appearance.otherMonthDayTextColor = newValue }
     }
 }

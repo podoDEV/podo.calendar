@@ -1,27 +1,15 @@
 //
 //  PodoCalendarView.swift
-//  Podolist
+//  PodoCalendar
 //
-//  Copyright © 2018년 podo. All rights reserved.
+//  Copyright © 2018 podo. All rights reserved.
 //
 
 import SwiftDate
 
-public protocol PodoCalendarViewDelegate: NSObjectProtocol {
+public class PodoCalendarView: UIView {
 
-    func calendarView(_ calendarView: PodoCalendarView, didSelectDate date: Date)
-    func calendarView(_ calendarView: PodoCalendarView, startedAt startDate: Date, finishedAt finishDate: Date)
-}
-
-extension PodoCalendarViewDelegate {
-
-    func calendarView(_ calendarView: PodoCalendarView, didSelectDate date: Date) {}
-    func calendarView(_ calendarView: PodoCalendarView, startedAt start: Date, finishedAt finish: Date) {}
-}
-
-open class PodoCalendarView: UIView {
-
-    weak open var delegate: PodoCalendarViewDelegate?
+    public weak var delegate: PodoCalendarViewDelegate?
 
     public var normalDayBackgroundColor: UIColor? {
         didSet {
@@ -79,34 +67,34 @@ open class PodoCalendarView: UIView {
         }
     }
 
-    lazy var weekLabel: WeekLabelView = {
+    internal lazy var weekLabel: WeekLabelView = {
         let view = WeekLabelView()
         view.backgroundColor = .normalDayBackgroundColor
         return view
     }()
 
-    lazy var calendarView: CalendarView = {
+    internal lazy var calendarView: CalendarView = {
         let view = CalendarView()
         view.delegate = self
         return view
     }()
 
-    required public init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setup()
     }
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         setup()
     }
 
-    init() {
+    public init() {
         super.init(frame: .zero)
         setup()
     }
 
-    func setup() {
+    private func setup() {
         addSubview(weekLabel)
         addSubview(calendarView)
         NotificationCenter.default.addObserver(self,
@@ -115,7 +103,15 @@ open class PodoCalendarView: UIView {
                                                object: nil)
     }
 
-    @objc func onSelected(notification: NSNotification) {
+    override public func layoutSubviews() {
+        super.layoutSubviews()
+        weekLabel.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height/7)
+        calendarView.frame = CGRect(x: 0, y: bounds.height/7, width: bounds.width, height: bounds.height/7 * 6)
+        calendarView.contentOffset.x = bounds.width
+        calendarView.selectDate(date: DateInRegion().dateAt(.startOfDay))
+    }
+
+    @objc private func onSelected(notification: NSNotification) {
         guard let date = notification.object as? DateInRegion else {
             return
         }
@@ -124,14 +120,6 @@ open class PodoCalendarView: UIView {
         if let delegate = delegate {
             delegate.calendarView(self, didSelectDate: date.date)
         }
-    }
-
-    override open func layoutSubviews() {
-        super.layoutSubviews()
-        weekLabel.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height/7)
-        calendarView.frame = CGRect(x: 0, y: bounds.height/7, width: bounds.width, height: bounds.height/7 * 6)
-        calendarView.contentOffset.x = bounds.width
-        calendarView.selectDate(date: DateInRegion().dateAt(.startOfDay))
     }
 }
 
@@ -146,24 +134,5 @@ extension PodoCalendarView: UIScrollViewDelegate {
         if position <= 0.0 || 2.0 <= position {
             calendarView.move(to: Direction(rawValue: Int(position))!)
         }
-    }
-}
-
-enum Direction: Int {
-    case prev = 0
-    case next = 2
-}
-
-extension UIColor {
-    convenience init(red: Int, green: Int, blue: Int, av: Float) {
-        assert(red >= 0 && red <= 255, "Invalid red component")
-        assert(green >= 0 && green <= 255, "Invalid green component")
-        assert(blue >= 0 && blue <= 255, "Invalid blue component")
-
-        self.init(red: CGFloat(red) / 255.0, green: CGFloat(green) / 255.0, blue: CGFloat(blue) / 255.0, alpha: CGFloat(av))
-    }
-
-    convenience init(hex: Int, alpha: Float = 1.0) {
-        self.init(red: (hex >> 16) & 0xff, green: (hex >> 8) & 0xff, blue: hex & 0xff, av: alpha)
     }
 }
