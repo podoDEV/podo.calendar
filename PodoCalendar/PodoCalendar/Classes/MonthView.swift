@@ -1,13 +1,13 @@
 //
 //  MonthView.swift
-//  Podolist
+//  PodoCalendar
 //
-//  Copyright © 2018년 podo. All rights reserved.
+//  Copyright © 2018 podo. All rights reserved.
 //
 
 import SwiftDate
 
-class MonthView: UIView {
+internal class MonthView: UIView {
 
     var weeks = [WeekView]()
     var date: DateInRegion? {

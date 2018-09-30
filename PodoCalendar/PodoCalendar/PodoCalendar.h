@@ -2,7 +2,6 @@
 //  PodoCalendar.h
 //  PodoCalendar
 //
-//  Created by NHNEnt on 30/09/2018.
 //  Copyright © 2018 podo. All rights reserved.
 //
 
