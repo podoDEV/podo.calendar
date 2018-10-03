@@ -7,7 +7,7 @@
 
 import SwiftDate
 
-internal class MonthView: UIView {
+internal class MonthView: BaseView {
 
     var weeks = [WeekView]()
     var date: DateInRegion? {
@@ -16,17 +16,7 @@ internal class MonthView: UIView {
         }
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setup()
-    }
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
-
-    func setup() {
+    override func setup() {
         for _ in 0..<6 {
             let week = WeekView()
             addSubview(week)

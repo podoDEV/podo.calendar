@@ -7,13 +7,14 @@
 
 import SwiftDate
 
-internal class DayView: UIView {
+internal class DayView: BaseView {
 
     lazy var dateLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
         label.textColor = .normalDayTextColor
         label.backgroundColor = .clear
+        label.font = .normalFont
         return label
     }()
 
@@ -64,17 +65,7 @@ internal class DayView: UIView {
         }
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setup()
-    }
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
-
-    func setup() {
+    override func setup() {
         let tap = UITapGestureRecognizer(target: self, action: #selector(onSelected))
         addGestureRecognizer(tap)
         addSubview(beginBackgroundView)
@@ -120,7 +111,7 @@ internal class DayView: UIView {
         dateLabel.textColor = .normalDayTextColor
         beginBackgroundView.backgroundColor = .normalDayBackgroundColor
         endBackgroundView.backgroundColor = .normalDayBackgroundColor
-        if isToday {
+        if isToday, isSameMonth {
             dateLabel.textColor = .todayTextColor
             middleBackgroundView.backgroundColor = .todayBackgroundColor
         } else if isSameMonth {
@@ -134,21 +125,36 @@ internal class DayView: UIView {
 
     func updateSelectUI(type: SelectType) {
         switch type {
-        case .begin:
+        case .begin where isSameMonth:
             dateLabel.textColor = .selectedDayTextColor
             beginBackgroundView.backgroundColor = .selectedDayBackgroundColor
             middleBackgroundView.backgroundColor = .selectedDayBackgroundColor
             endBackgroundView.backgroundColor = .normalDayBackgroundColor
-        case .single:
+        case .begin:
+            dateLabel.textColor = .normalDayTextColor
+            beginBackgroundView.backgroundColor = .normalDayBackgroundColor
+            middleBackgroundView.backgroundColor = .normalDayBackgroundColor
+            endBackgroundView.backgroundColor = .normalDayBackgroundColor
+        case .single where isSameMonth:
             dateLabel.textColor = .selectedDayTextColor
             beginBackgroundView.backgroundColor = .normalDayBackgroundColor
             middleBackgroundView.backgroundColor = .selectedDayBackgroundColor
             endBackgroundView.backgroundColor = .normalDayBackgroundColor
-        case .end:
+        case .single:
+            dateLabel.textColor = .normalDayTextColor
+            beginBackgroundView.backgroundColor = .normalDayBackgroundColor
+            middleBackgroundView.backgroundColor = .normalDayBackgroundColor
+            endBackgroundView.backgroundColor = .normalDayBackgroundColor
+        case .end where isSameMonth:
             dateLabel.textColor = .selectedDayTextColor
             beginBackgroundView.backgroundColor = .normalDayBackgroundColor
             middleBackgroundView.backgroundColor = .selectedDayBackgroundColor
             endBackgroundView.backgroundColor = .selectedDayBackgroundColor
+        case .end:
+            dateLabel.textColor = .normalDayTextColor
+            beginBackgroundView.backgroundColor = .normalDayBackgroundColor
+            middleBackgroundView.backgroundColor = .normalDayBackgroundColor
+            endBackgroundView.backgroundColor = .normalDayBackgroundColor
         }
     }
 

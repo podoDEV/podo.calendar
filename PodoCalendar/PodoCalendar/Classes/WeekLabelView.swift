@@ -5,27 +5,17 @@
 //  Copyright © 2018 podo. All rights reserved.
 //
 
-internal class WeekLabelView: UIView {
+internal class WeekLabelView: BaseView {
 
-    var weekLabels: [WeekLabel] = [WeekLabel(day: NSLocalizedString("Sunday", comment: "Sunday")),
-                                   WeekLabel(day: NSLocalizedString("Monday", comment: "Monday")),
-                                   WeekLabel(day: NSLocalizedString("Tuesday", comment: "Tuesday")),
-                                   WeekLabel(day: NSLocalizedString("Wednesday", comment: "Wednesday")),
-                                   WeekLabel(day: NSLocalizedString("Thursday", comment: "Thursday")),
-                                   WeekLabel(day: NSLocalizedString("Friday", comment: "Friday")),
-                                   WeekLabel(day: NSLocalizedString("Saturday", comment: "Saturday"))]
+    var weekLabels: [WeekLabel] = [WeekLabel(day: NSLocalizedString("SUN", comment: "Sunday")),
+                                   WeekLabel(day: NSLocalizedString("MON", comment: "Monday")),
+                                   WeekLabel(day: NSLocalizedString("TUE", comment: "Tuesday")),
+                                   WeekLabel(day: NSLocalizedString("WED", comment: "Wednesday")),
+                                   WeekLabel(day: NSLocalizedString("THU", comment: "Thursday")),
+                                   WeekLabel(day: NSLocalizedString("FRI", comment: "Friday")),
+                                   WeekLabel(day: NSLocalizedString("SAT", comment: "Saturday"))]
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setup()
-    }
-
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
-
-    func setup() {
+    override func setup() {
         for label in weekLabels {
             addSubview(label)
         }
@@ -55,7 +45,7 @@ internal class WeekLabelView: UIView {
             text = day
             textAlignment = .center
             textColor = .normalDayTextColor
-            font = .boldSystemFont(ofSize: 10)
+            font = .normalFont
         }
     }
 }

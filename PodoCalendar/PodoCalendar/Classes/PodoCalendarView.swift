@@ -67,6 +67,14 @@ public class PodoCalendarView: UIView {
         }
     }
 
+    public var normalFont: UIFont? {
+        didSet {
+            if let normalFont = normalFont {
+                UIFont.normalFont = normalFont
+            }
+        }
+    }
+
     internal lazy var weekLabel: WeekLabelView = {
         let view = WeekLabelView()
         view.backgroundColor = .normalDayBackgroundColor
