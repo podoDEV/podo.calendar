@@ -7,14 +7,21 @@
 //
 
 import UIKit
+import PodoCalendar
 
 class ViewController: UIViewController {
 
+    var calendarView: PodoCalendarView!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        calendarView = PodoCalendarView()
+        self.view.addSubview(calendarView)
     }
 
-
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        let layoutInset = view.layoutInsets()
+        calendarView.frame = CGRect(x: 0, y: 0 + layoutInset.top, width: view.bounds.width, height: view.bounds.width)
+    }
 }
-

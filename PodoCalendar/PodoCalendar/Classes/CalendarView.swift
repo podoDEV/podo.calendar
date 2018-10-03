@@ -89,7 +89,6 @@ internal class CalendarView: UIScrollView {
                 for day in week.days {
                     if let date = day.date, date.year == selectedDate?.year, date.month == selectedDate!.month, date.day == selectedDate!.day {
                         day.isSelected = true
-
                     } else {
                         day.isSelected = false
                     }

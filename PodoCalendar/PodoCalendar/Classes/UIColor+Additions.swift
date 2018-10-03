@@ -15,6 +15,7 @@ internal struct Appearance {
     static var selectedDayTextColor = UIColor(hex: 0x9000FE)
     static var todayTextColor = UIColor(hex: 0x9000FE)
     static var otherMonthDayTextColor = UIColor(hex: 0xEEEEEE)
+    static var normalFont: UIFont = .boldSystemFont(ofSize: 10)
 }
 
 extension UIColor {

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1416B4AE6516E0938D8CE9C5 /* Pods_PodoCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58E6E8998C62CE410166721 /* Pods_PodoCalendar.framework */; };
+		2D1C5DD421648C2500EC79A2 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C5DD321648C2500EC79A2 /* UIFont+Additions.swift */; };
+		2D1C5DD621648E2800EC79A2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C5DD521648E2800EC79A2 /* BaseView.swift */; };
 		2D41EDA82160F1130009A3A3 /* PodoCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D41EDA62160F1130009A3A3 /* PodoCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D41EDB42160F3BC0009A3A3 /* WeekLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDAE2160F3BC0009A3A3 /* WeekLabelView.swift */; };
 		2D41EDB52160F3BC0009A3A3 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDAF2160F3BC0009A3A3 /* DayView.swift */; };
@@ -19,11 +21,12 @@
 		2DD981D521611A1D00DAA814 /* PodoCalendarViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D421611A1D00DAA814 /* PodoCalendarViewDelegate.swift */; };
 		2DD981D721611CCD00DAA814 /* NSNotification+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */; };
 		2DD981D921611D6100DAA814 /* SelectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D821611D6100DAA814 /* SelectType.swift */; };
-		2DD981DD21611FA700DAA814 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DD981DF21611FA700DAA814 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2981E3C37E0E8D044C29E4F7 /* Pods-PodoCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodoCalendar/Pods-PodoCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1C5DD321648C2500EC79A2 /* UIFont+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		2D1C5DD521648E2800EC79A2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		2D41EDA32160F1130009A3A3 /* PodoCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodoCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41EDA62160F1130009A3A3 /* PodoCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodoCalendar.h; sourceTree = "<group>"; };
 		2D41EDA72160F1130009A3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -38,8 +41,6 @@
 		2DD981D421611A1D00DAA814 /* PodoCalendarViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodoCalendarViewDelegate.swift; sourceTree = "<group>"; };
 		2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+Additions.swift"; sourceTree = "<group>"; };
 		2DD981D821611D6100DAA814 /* SelectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectType.swift; sourceTree = "<group>"; };
-		2DD981DE21611FA700DAA814 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		2DD981E021611FC000DAA814 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
 		821BD83FFFDA84E9754DCE59 /* Pods-PodoCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodoCalendar/Pods-PodoCalendar.release.xcconfig"; sourceTree = "<group>"; };
 		D58E6E8998C62CE410166721 /* Pods_PodoCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodoCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -80,7 +81,6 @@
 				2DD981DA21611EA900DAA814 /* Classes */,
 				2D41EDA62160F1130009A3A3 /* PodoCalendar.h */,
 				2D41EDA72160F1130009A3A3 /* Info.plist */,
-				2DD981DF21611FA700DAA814 /* Localizable.strings */,
 			);
 			path = PodoCalendar;
 			sourceTree = "<group>";
@@ -94,8 +94,10 @@
 				2D41EDB22160F3BC0009A3A3 /* MonthView.swift */,
 				2D41EDB12160F3BC0009A3A3 /* WeekView.swift */,
 				2D41EDAF2160F3BC0009A3A3 /* DayView.swift */,
+				2D1C5DD521648E2800EC79A2 /* BaseView.swift */,
 				2D41EDAE2160F3BC0009A3A3 /* WeekLabelView.swift */,
 				2DD981D2216119AE00DAA814 /* UIColor+Additions.swift */,
+				2D1C5DD321648C2500EC79A2 /* UIFont+Additions.swift */,
 				2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */,
 				2DD981D821611D6100DAA814 /* SelectType.swift */,
 			);
@@ -174,7 +176,6 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				ko,
 			);
 			mainGroup = 2D41ED992160F1130009A3A3;
 			productRefGroup = 2D41EDA42160F1130009A3A3 /* Products */;
@@ -191,7 +192,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DD981DD21611FA700DAA814 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,29 +226,19 @@
 				2D41EDB72160F3BC0009A3A3 /* WeekView.swift in Sources */,
 				2D41EDB82160F3BC0009A3A3 /* MonthView.swift in Sources */,
 				2D41EDB42160F3BC0009A3A3 /* WeekLabelView.swift in Sources */,
+				2D1C5DD621648E2800EC79A2 /* BaseView.swift in Sources */,
 				2DD981D921611D6100DAA814 /* SelectType.swift in Sources */,
 				2DD981D521611A1D00DAA814 /* PodoCalendarViewDelegate.swift in Sources */,
 				2D41EDB52160F3BC0009A3A3 /* DayView.swift in Sources */,
 				2D41EDB92160F3BC0009A3A3 /* PodoCalendarView.swift in Sources */,
 				2D41EDB62160F3BC0009A3A3 /* CalendarView.swift in Sources */,
+				2D1C5DD421648C2500EC79A2 /* UIFont+Additions.swift in Sources */,
 				2DD981D3216119AE00DAA814 /* UIColor+Additions.swift in Sources */,
 				2DD981D721611CCD00DAA814 /* NSNotification+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2DD981DF21611FA700DAA814 /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2DD981DE21611FA700DAA814 /* en */,
-				2DD981E021611FC000DAA814 /* ko */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2D41EDA92160F1130009A3A3 /* Debug */ = {
@@ -304,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -363,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -389,7 +379,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PodoCalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,7 +408,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PodoCalendar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,3 +1,23 @@
-PODFILE CHECKSUM: 3747f4370eef9e7db3b776b91f84ecc3dbc752bc
+PODS:
+  - PodoCalendar (0.2.1):
+    - SwiftDate (~> 5.0.9)
+  - SwiftDate (5.0.9)
+
+DEPENDENCIES:
+  - PodoCalendar (from `..`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftDate
+
+EXTERNAL SOURCES:
+  PodoCalendar:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  PodoCalendar: 43e250fca6851f2afb32fcf7e9fba3bb511beb68
+  SwiftDate: 52b718d32ec006861a2be2756cbfa482d438e781
+
+PODFILE CHECKSUM: 85859ddaf5a06592030d9601fc3b4196c5742342
 
 COCOAPODS: 1.5.3
