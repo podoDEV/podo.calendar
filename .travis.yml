@@ -4,11 +4,14 @@ branches:
   only:
     - develop
     - master
+env:
+  - DESTINATION="OS=11.3,name=iPhone 8" SCHEME="Example" SDK=iphonesimulator
 # cache: cocoapods
 # podfile: Example/Podfile
 before_install:
 - gem install cocoapods -v '1.5.3'
-- pod install --project-directory=Example
+- pod install --repo-update --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/Example.xcworkspace -scheme Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- set -o pipefail
+- travis_retry xcodebuild -workspace Example/Example.xcworkspace -scheme "$SCHEME" -sdk "$SDK" ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
