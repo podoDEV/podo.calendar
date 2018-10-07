@@ -1,5 +1,5 @@
 //
-//  PodoCalendarView.swift
+//  PodoCalendar.swift
 //  PodoCalendar
 //
 //  Copyright © 2018 podo. All rights reserved.
@@ -7,9 +7,9 @@
 
 import SwiftDate
 
-public class PodoCalendarView: UIView {
+public class PodoCalendar: UIView {
 
-    public weak var delegate: PodoCalendarViewDelegate?
+    public weak var delegate: PodoCalendarDelegate?
 
     public var normalDayBackgroundColor: UIColor? {
         didSet {
@@ -131,7 +131,7 @@ public class PodoCalendarView: UIView {
     }
 }
 
-extension PodoCalendarView: UIScrollViewDelegate {
+extension PodoCalendar: UIScrollViewDelegate {
 
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let position = self.calendarView.contentOffset.x / self.calendarView.frame.width
