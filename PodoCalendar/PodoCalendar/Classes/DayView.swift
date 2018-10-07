@@ -131,9 +131,9 @@ internal class DayView: BaseView {
             middleBackgroundView.backgroundColor = .selectedDayBackgroundColor
             endBackgroundView.backgroundColor = .normalDayBackgroundColor
         case .begin:
-            dateLabel.textColor = .normalDayTextColor
-            beginBackgroundView.backgroundColor = .normalDayBackgroundColor
-            middleBackgroundView.backgroundColor = .normalDayBackgroundColor
+            dateLabel.textColor = .otherMonthSelectedDayTextColor
+            beginBackgroundView.backgroundColor = .otherMonthSelectedDayBackgroundColor
+            middleBackgroundView.backgroundColor = .otherMonthSelectedDayBackgroundColor
             endBackgroundView.backgroundColor = .normalDayBackgroundColor
         case .single where isSameMonth:
             dateLabel.textColor = .selectedDayTextColor
@@ -141,9 +141,9 @@ internal class DayView: BaseView {
             middleBackgroundView.backgroundColor = .selectedDayBackgroundColor
             endBackgroundView.backgroundColor = .normalDayBackgroundColor
         case .single:
-            dateLabel.textColor = .normalDayTextColor
+            dateLabel.textColor = .otherMonthSelectedDayTextColor
             beginBackgroundView.backgroundColor = .normalDayBackgroundColor
-            middleBackgroundView.backgroundColor = .normalDayBackgroundColor
+            middleBackgroundView.backgroundColor = .otherMonthSelectedDayBackgroundColor
             endBackgroundView.backgroundColor = .normalDayBackgroundColor
         case .end where isSameMonth:
             dateLabel.textColor = .selectedDayTextColor
@@ -151,10 +151,10 @@ internal class DayView: BaseView {
             middleBackgroundView.backgroundColor = .selectedDayBackgroundColor
             endBackgroundView.backgroundColor = .selectedDayBackgroundColor
         case .end:
-            dateLabel.textColor = .normalDayTextColor
+            dateLabel.textColor = .otherMonthSelectedDayTextColor
             beginBackgroundView.backgroundColor = .normalDayBackgroundColor
-            middleBackgroundView.backgroundColor = .normalDayBackgroundColor
-            endBackgroundView.backgroundColor = .normalDayBackgroundColor
+            middleBackgroundView.backgroundColor = .otherMonthSelectedDayBackgroundColor
+            endBackgroundView.backgroundColor = .otherMonthSelectedDayBackgroundColor
         }
     }
 

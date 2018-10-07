@@ -26,6 +26,8 @@ internal class WeekLabelView: BaseView {
         var x: CGFloat = 0
         for label in weekLabels {
             label.frame = CGRect(x: x, y: 0, width: bounds.size.width / CGFloat(weekLabels.count), height: bounds.height)
+            label.textColor = .normalDayTextColor
+            label.font = .normalFont
             x = label.frame.maxX
         }
     }
@@ -44,8 +46,6 @@ internal class WeekLabelView: BaseView {
             super.init(frame: .zero)
             text = day
             textAlignment = .center
-            textColor = .normalDayTextColor
-            font = .normalFont
         }
     }
 }

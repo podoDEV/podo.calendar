@@ -8,14 +8,16 @@
 import UIKit
 
 internal struct Appearance {
-    static var normalDayBackgroundColor = UIColor(hex: 0xF9F9F9)
-    static var selectedDayBackgroundColor = UIColor(hex: 0xD6ABFB)
-    static var todayBackgroundColor = UIColor(hex: 0xF9F9F9)
-    static var normalDayTextColor = UIColor(hex: 0x9000FE)
-    static var selectedDayTextColor = UIColor(hex: 0x9000FE)
-    static var todayTextColor = UIColor(hex: 0x9000FE)
+    static var normalDayBackgroundColor = UIColor(hex: 0xFFFFFF)
+    static var selectedDayBackgroundColor = UIColor(hex: 0xD6ACFB)
+    static var otherMonthSelectedDayBackgroundColor = UIColor(hex: 0xE6CAFD)
+    static var todayBackgroundColor = UIColor(hex: 0xFFFFFF)
+    static var normalDayTextColor = UIColor(hex: 0x9013FE)
+    static var selectedDayTextColor = UIColor(hex: 0x9013FE)
+    static var otherMonthSelectedDayTextColor = UIColor(hex: 0xAD49FE)
+    static var todayTextColor = UIColor(hex: 0x9013FE)
     static var otherMonthDayTextColor = UIColor(hex: 0xEEEEEE)
-    static var normalFont: UIFont = .boldSystemFont(ofSize: 10)
+    static var normalFont: UIFont = .boldSystemFont(ofSize: 11)
 }
 
 extension UIColor {
@@ -43,6 +45,10 @@ extension UIColor {
         get { return Appearance.selectedDayBackgroundColor }
         set { Appearance.selectedDayBackgroundColor = newValue }
     }
+    static var otherMonthSelectedDayBackgroundColor: UIColor {
+        get { return Appearance.otherMonthSelectedDayBackgroundColor }
+        set { Appearance.otherMonthSelectedDayBackgroundColor = newValue }
+    }
     static var todayBackgroundColor: UIColor {
         get { return Appearance.todayBackgroundColor }
         set { Appearance.todayBackgroundColor = newValue }
@@ -54,6 +60,10 @@ extension UIColor {
     static var selectedDayTextColor: UIColor {
         get { return Appearance.selectedDayTextColor }
         set { Appearance.selectedDayTextColor = newValue }
+    }
+    static var otherMonthSelectedDayTextColor: UIColor {
+        get { return Appearance.otherMonthSelectedDayTextColor }
+        set { Appearance.otherMonthSelectedDayTextColor = newValue }
     }
     static var todayTextColor: UIColor {
         get { return Appearance.todayTextColor }
