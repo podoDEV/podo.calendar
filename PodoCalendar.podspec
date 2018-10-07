@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "PodoCalendar"
-  s.version          = "0.2.2"
+  s.version          = "0.2.3"
   s.summary          = "Podo group style calendar."
   s.description      = "A simple way to implement podo style calendar"
   s.homepage         = "https://github.com/podoDEV/PodoCalendar"
