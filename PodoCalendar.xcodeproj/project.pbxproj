@@ -25,6 +25,7 @@
 		2DB7EC2A2178AB9300AF4356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7EC292178AB9300AF4356 /* Assets.xcassets */; };
 		2DB7EC2D2178AB9300AF4356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7EC2B2178AB9300AF4356 /* LaunchScreen.storyboard */; };
 		2DB7EC332178AD2B00AF4356 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7EC322178AD2800AF4356 /* UIView+Additions.swift */; };
+		2DB7EC342178BA8800AF4356 /* PodoCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D41EDA32160F1130009A3A3 /* PodoCalendar.framework */; };
 		2DD981D3216119AE00DAA814 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D2216119AE00DAA814 /* UIColor+Additions.swift */; };
 		2DD981D721611CCD00DAA814 /* NSNotification+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */; };
 		2DD981D921611D6100DAA814 /* SelectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D821611D6100DAA814 /* SelectType.swift */; };
@@ -78,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB7EC342178BA8800AF4356 /* PodoCalendar.framework in Frameworks */,
 				51CE29BE74C3E0A1927B24A3 /* Pods_PodoCalendarExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
