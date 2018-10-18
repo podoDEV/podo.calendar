@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1416B4AE6516E0938D8CE9C5 /* Pods_PodoCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D58E6E8998C62CE410166721 /* Pods_PodoCalendar.framework */; };
+		2D1C5DD421648C2500EC79A2 /* UIFont+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C5DD321648C2500EC79A2 /* UIFont+Additions.swift */; };
+		2D1C5DD621648E2800EC79A2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C5DD521648E2800EC79A2 /* BaseView.swift */; };
+		2D31DEF0216A702E00977507 /* PodoCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D31DEEE216A702E00977507 /* PodoCalendar.swift */; };
+		2D31DEF1216A702E00977507 /* PodoCalendarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D31DEEF216A702E00977507 /* PodoCalendarDelegate.swift */; };
+		2D41EDA82160F1130009A3A3 /* PodoCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D41EDA62160F1130009A3A3 /* PodoCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D41EDB42160F3BC0009A3A3 /* WeekLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDAE2160F3BC0009A3A3 /* WeekLabelView.swift */; };
+		2D41EDB52160F3BC0009A3A3 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDAF2160F3BC0009A3A3 /* DayView.swift */; };
+		2D41EDB62160F3BC0009A3A3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDB02160F3BC0009A3A3 /* CalendarView.swift */; };
+		2D41EDB72160F3BC0009A3A3 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDB12160F3BC0009A3A3 /* WeekView.swift */; };
+		2D41EDB82160F3BC0009A3A3 /* MonthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDB22160F3BC0009A3A3 /* MonthView.swift */; };
+		2DB7EC1B2178AA8500AF4356 /* PodoCalendar.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7EC1A2178AA8500AF4356 /* PodoCalendar.podspec */; };
+		2DB7EC232178AB9000AF4356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7EC222178AB9000AF4356 /* AppDelegate.swift */; };
+		2DB7EC252178AB9000AF4356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7EC242178AB9000AF4356 /* ViewController.swift */; };
+		2DB7EC282178AB9000AF4356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7EC262178AB9000AF4356 /* Main.storyboard */; };
+		2DB7EC2A2178AB9300AF4356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7EC292178AB9300AF4356 /* Assets.xcassets */; };
+		2DB7EC2D2178AB9300AF4356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7EC2B2178AB9300AF4356 /* LaunchScreen.storyboard */; };
+		2DB7EC332178AD2B00AF4356 /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7EC322178AD2800AF4356 /* UIView+Additions.swift */; };
+		2DB7EC342178BA8800AF4356 /* PodoCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D41EDA32160F1130009A3A3 /* PodoCalendar.framework */; };
+		2DD981D3216119AE00DAA814 /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D2216119AE00DAA814 /* UIColor+Additions.swift */; };
+		2DD981D721611CCD00DAA814 /* NSNotification+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */; };
+		2DD981D921611D6100DAA814 /* SelectType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD981D821611D6100DAA814 /* SelectType.swift */; };
+		51CE29BE74C3E0A1927B24A3 /* Pods_PodoCalendarExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12E86C9E8076593CFA011452 /* Pods_PodoCalendarExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12E86C9E8076593CFA011452 /* Pods_PodoCalendarExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodoCalendarExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C42A8CCB668B95BA70BF04C /* Pods-PodoCalendarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoCalendarExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodoCalendarExample/Pods-PodoCalendarExample.release.xcconfig"; sourceTree = "<group>"; };
+		2981E3C37E0E8D044C29E4F7 /* Pods-PodoCalendar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoCalendar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodoCalendar/Pods-PodoCalendar.debug.xcconfig"; sourceTree = "<group>"; };
+		2D1C5DD321648C2500EC79A2 /* UIFont+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Additions.swift"; sourceTree = "<group>"; };
+		2D1C5DD521648E2800EC79A2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		2D31DEEE216A702E00977507 /* PodoCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodoCalendar.swift; sourceTree = "<group>"; };
+		2D31DEEF216A702E00977507 /* PodoCalendarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodoCalendarDelegate.swift; sourceTree = "<group>"; };
+		2D41EDA32160F1130009A3A3 /* PodoCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodoCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D41EDA62160F1130009A3A3 /* PodoCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodoCalendar.h; sourceTree = "<group>"; };
+		2D41EDA72160F1130009A3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D41EDAE2160F3BC0009A3A3 /* WeekLabelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekLabelView.swift; sourceTree = "<group>"; };
+		2D41EDAF2160F3BC0009A3A3 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		2D41EDB02160F3BC0009A3A3 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		2D41EDB12160F3BC0009A3A3 /* WeekView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		2D41EDB22160F3BC0009A3A3 /* MonthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthView.swift; sourceTree = "<group>"; };
+		2D41EDBA2160FFBA0009A3A3 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB7EC1A2178AA8500AF4356 /* PodoCalendar.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodoCalendar.podspec; sourceTree = SOURCE_ROOT; };
+		2DB7EC202178AB8F00AF4356 /* PodoCalendarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PodoCalendarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB7EC222178AB9000AF4356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DB7EC242178AB9000AF4356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DB7EC272178AB9000AF4356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DB7EC292178AB9300AF4356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DB7EC2C2178AB9300AF4356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DB7EC2E2178AB9300AF4356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB7EC322178AD2800AF4356 /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		2DD981D2216119AE00DAA814 /* UIColor+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSNotification+Additions.swift"; sourceTree = "<group>"; };
+		2DD981D821611D6100DAA814 /* SelectType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectType.swift; sourceTree = "<group>"; };
+		44365563AF88CD4670E7F867 /* Pods-PodoCalendarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoCalendarExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PodoCalendarExample/Pods-PodoCalendarExample.debug.xcconfig"; sourceTree = "<group>"; };
+		821BD83FFFDA84E9754DCE59 /* Pods-PodoCalendar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PodoCalendar.release.xcconfig"; path = "Pods/Target Support Files/Pods-PodoCalendar/Pods-PodoCalendar.release.xcconfig"; sourceTree = "<group>"; };
+		D58E6E8998C62CE410166721 /* Pods_PodoCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PodoCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D41EDA02160F1130009A3A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1416B4AE6516E0938D8CE9C5 /* Pods_PodoCalendar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB7EC1D2178AB8F00AF4356 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7EC342178BA8800AF4356 /* PodoCalendar.framework in Frameworks */,
+				51CE29BE74C3E0A1927B24A3 /* Pods_PodoCalendarExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D318A81216F3CA20041FEB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7EC1A2178AA8500AF4356 /* PodoCalendar.podspec */,
+				2D41EDA62160F1130009A3A3 /* PodoCalendar.h */,
+				2D41EDA72160F1130009A3A3 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2D41ED992160F1130009A3A3 = {
+			isa = PBXGroup;
+			children = (
+				2D41EDA52160F1130009A3A3 /* PodoCalendar */,
+				2DB7EC212178AB9000AF4356 /* PodoCalendarExample */,
+				2D41EDA42160F1130009A3A3 /* Products */,
+				D965CFE3B80F28B11A46BFB1 /* Pods */,
+				B054CC7CB278EF177C80D32F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2D41EDA42160F1130009A3A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D41EDA32160F1130009A3A3 /* PodoCalendar.framework */,
+				2DB7EC202178AB8F00AF4356 /* PodoCalendarExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D41EDA52160F1130009A3A3 /* PodoCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				2DD981DA21611EA900DAA814 /* Classes */,
+				2D318A81216F3CA20041FEB4 /* Supporting Files */,
+			);
+			path = PodoCalendar;
+			sourceTree = "<group>";
+		};
+		2DB7EC212178AB9000AF4356 /* PodoCalendarExample */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7EC322178AD2800AF4356 /* UIView+Additions.swift */,
+				2DB7EC222178AB9000AF4356 /* AppDelegate.swift */,
+				2DB7EC242178AB9000AF4356 /* ViewController.swift */,
+				2DB7EC262178AB9000AF4356 /* Main.storyboard */,
+				2DB7EC292178AB9300AF4356 /* Assets.xcassets */,
+				2DB7EC2B2178AB9300AF4356 /* LaunchScreen.storyboard */,
+				2DB7EC2E2178AB9300AF4356 /* Info.plist */,
+			);
+			path = PodoCalendarExample;
+			sourceTree = "<group>";
+		};
+		2DD981DA21611EA900DAA814 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2D31DEEE216A702E00977507 /* PodoCalendar.swift */,
+				2D31DEEF216A702E00977507 /* PodoCalendarDelegate.swift */,
+				2D41EDB02160F3BC0009A3A3 /* CalendarView.swift */,
+				2D41EDB22160F3BC0009A3A3 /* MonthView.swift */,
+				2D41EDB12160F3BC0009A3A3 /* WeekView.swift */,
+				2D41EDAF2160F3BC0009A3A3 /* DayView.swift */,
+				2D1C5DD521648E2800EC79A2 /* BaseView.swift */,
+				2D41EDAE2160F3BC0009A3A3 /* WeekLabelView.swift */,
+				2DD981D2216119AE00DAA814 /* UIColor+Additions.swift */,
+				2D1C5DD321648C2500EC79A2 /* UIFont+Additions.swift */,
+				2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */,
+				2DD981D821611D6100DAA814 /* SelectType.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B054CC7CB278EF177C80D32F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D41EDBA2160FFBA0009A3A3 /* SwiftDate.framework */,
+				D58E6E8998C62CE410166721 /* Pods_PodoCalendar.framework */,
+				12E86C9E8076593CFA011452 /* Pods_PodoCalendarExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D965CFE3B80F28B11A46BFB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2981E3C37E0E8D044C29E4F7 /* Pods-PodoCalendar.debug.xcconfig */,
+				821BD83FFFDA84E9754DCE59 /* Pods-PodoCalendar.release.xcconfig */,
+				44365563AF88CD4670E7F867 /* Pods-PodoCalendarExample.debug.xcconfig */,
+				1C42A8CCB668B95BA70BF04C /* Pods-PodoCalendarExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2D41ED9E2160F1130009A3A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41EDA82160F1130009A3A3 /* PodoCalendar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D41EDA22160F1130009A3A3 /* PodoCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D41EDAB2160F1130009A3A3 /* Build configuration list for PBXNativeTarget "PodoCalendar" */;
+			buildPhases = (
+				C5DFFDF976BAF1E47E808C77 /* [CP] Check Pods Manifest.lock */,
+				2D41ED9E2160F1130009A3A3 /* Headers */,
+				2D41ED9F2160F1130009A3A3 /* Sources */,
+				2D41EDA02160F1130009A3A3 /* Frameworks */,
+				2D41EDA12160F1130009A3A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodoCalendar;
+			productName = PodoCalendar;
+			productReference = 2D41EDA32160F1130009A3A3 /* PodoCalendar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DB7EC1F2178AB8F00AF4356 /* PodoCalendarExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB7EC2F2178AB9300AF4356 /* Build configuration list for PBXNativeTarget "PodoCalendarExample" */;
+			buildPhases = (
+				C1B12E9AB9589CCD853DD3AE /* [CP] Check Pods Manifest.lock */,
+				2DB7EC1C2178AB8F00AF4356 /* Sources */,
+				2DB7EC1D2178AB8F00AF4356 /* Frameworks */,
+				2DB7EC1E2178AB8F00AF4356 /* Resources */,
+				3036164CDAA11AA3F159CFA1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PodoCalendarExample;
+			productName = PodoCalendarExample;
+			productReference = 2DB7EC202178AB8F00AF4356 /* PodoCalendarExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D41ED9A2160F1130009A3A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = podo;
+				TargetAttributes = {
+					2D41EDA22160F1130009A3A3 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					2DB7EC1F2178AB8F00AF4356 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 2D41ED9D2160F1130009A3A3 /* Build configuration list for PBXProject "PodoCalendar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D41ED992160F1130009A3A3;
+			productRefGroup = 2D41EDA42160F1130009A3A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D41EDA22160F1130009A3A3 /* PodoCalendar */,
+				2DB7EC1F2178AB8F00AF4356 /* PodoCalendarExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D41EDA12160F1130009A3A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7EC1B2178AA8500AF4356 /* PodoCalendar.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB7EC1E2178AB8F00AF4356 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7EC2D2178AB9300AF4356 /* LaunchScreen.storyboard in Resources */,
+				2DB7EC2A2178AB9300AF4356 /* Assets.xcassets in Resources */,
+				2DB7EC282178AB9000AF4356 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3036164CDAA11AA3F159CFA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PodoCalendarExample/Pods-PodoCalendarExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftDate.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PodoCalendarExample/Pods-PodoCalendarExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1B12E9AB9589CCD853DD3AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodoCalendarExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DFFDF976BAF1E47E808C77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PodoCalendar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D41ED9F2160F1130009A3A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D41EDB72160F3BC0009A3A3 /* WeekView.swift in Sources */,
+				2D41EDB82160F3BC0009A3A3 /* MonthView.swift in Sources */,
+				2D41EDB42160F3BC0009A3A3 /* WeekLabelView.swift in Sources */,
+				2D1C5DD621648E2800EC79A2 /* BaseView.swift in Sources */,
+				2DD981D921611D6100DAA814 /* SelectType.swift in Sources */,
+				2D41EDB52160F3BC0009A3A3 /* DayView.swift in Sources */,
+				2D41EDB62160F3BC0009A3A3 /* CalendarView.swift in Sources */,
+				2D31DEF0216A702E00977507 /* PodoCalendar.swift in Sources */,
+				2D31DEF1216A702E00977507 /* PodoCalendarDelegate.swift in Sources */,
+				2D1C5DD421648C2500EC79A2 /* UIFont+Additions.swift in Sources */,
+				2DD981D3216119AE00DAA814 /* UIColor+Additions.swift in Sources */,
+				2DD981D721611CCD00DAA814 /* NSNotification+Additions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB7EC1C2178AB8F00AF4356 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7EC332178AD2B00AF4356 /* UIView+Additions.swift in Sources */,
+				2DB7EC252178AB9000AF4356 /* ViewController.swift in Sources */,
+				2DB7EC232178AB9000AF4356 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2DB7EC262178AB9000AF4356 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB7EC272178AB9000AF4356 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DB7EC2B2178AB9300AF4356 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB7EC2C2178AB9300AF4356 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2D41EDA92160F1130009A3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D41EDAA2160F1130009A3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D41EDAC2160F1130009A3A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2981E3C37E0E8D044C29E4F7 /* Pods-PodoCalendar.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7KW522KWZF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/PodoCalendar/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.podo.podocalendar;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D41EDAD2160F1130009A3A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821BD83FFFDA84E9754DCE59 /* Pods-PodoCalendar.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 7KW522KWZF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/PodoCalendar/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.podo.podocalendar;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DB7EC302178AB9300AF4356 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44365563AF88CD4670E7F867 /* Pods-PodoCalendarExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW522KWZF;
+				INFOPLIST_FILE = PodoCalendarExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.podo.podocalendarexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DB7EC312178AB9300AF4356 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C42A8CCB668B95BA70BF04C /* Pods-PodoCalendarExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7KW522KWZF;
+				INFOPLIST_FILE = PodoCalendarExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.podo.podocalendarexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D41ED9D2160F1130009A3A3 /* Build configuration list for PBXProject "PodoCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41EDA92160F1130009A3A3 /* Debug */,
+				2D41EDAA2160F1130009A3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D41EDAB2160F1130009A3A3 /* Build configuration list for PBXNativeTarget "PodoCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D41EDAC2160F1130009A3A3 /* Debug */,
+				2D41EDAD2160F1130009A3A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB7EC2F2178AB9300AF4356 /* Build configuration list for PBXNativeTarget "PodoCalendarExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB7EC302178AB9300AF4356 /* Debug */,
+				2DB7EC312178AB9300AF4356 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D41ED9A2160F1130009A3A3 /* Project object */;
+}
