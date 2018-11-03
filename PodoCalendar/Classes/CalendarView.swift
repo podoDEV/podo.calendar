@@ -84,10 +84,14 @@ internal class CalendarView: UIScrollView {
 
     func selectDate(date: DateInRegion) {
         selectedDate = date
+        let selectedDateComps = CalendarUtils.dateComponentsOfDate(date: date.date)
         for month in months {
             for week in month.weeks {
                 for day in week.days {
-                    if let date = day.date, date.year == selectedDate?.year, date.month == selectedDate!.month, date.day == selectedDate!.day {
+                    if let date = day.date,
+                        date.year == selectedDateComps.year,
+                        date.month == selectedDateComps.month,
+                        date.day == selectedDateComps.day {
                         day.isSelected = true
                     } else {
                         day.isSelected = false

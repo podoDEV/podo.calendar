@@ -40,7 +40,7 @@ internal class WeekView: BaseView {
         var date = self.date!
         for day in days {
             day.isSameMonth = (date.year == self.year && date.month == self.month)
-            day.isToday = date.isToday
+            day.isToday = CalendarUtils.isToday(date: date.date)
             day.date = date
             date = date.dateAt(.tomorrow)
         }
