@@ -12,6 +12,7 @@
 		2D1C5DD621648E2800EC79A2 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1C5DD521648E2800EC79A2 /* BaseView.swift */; };
 		2D31DEF0216A702E00977507 /* PodoCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D31DEEE216A702E00977507 /* PodoCalendar.swift */; };
 		2D31DEF1216A702E00977507 /* PodoCalendarDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D31DEEF216A702E00977507 /* PodoCalendarDelegate.swift */; };
+		2D377712218E0F2B006D7C8D /* CalendarUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D377711218E0F2B006D7C8D /* CalendarUtils.swift */; };
 		2D41EDA82160F1130009A3A3 /* PodoCalendar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D41EDA62160F1130009A3A3 /* PodoCalendar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2D41EDB42160F3BC0009A3A3 /* WeekLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDAE2160F3BC0009A3A3 /* WeekLabelView.swift */; };
 		2D41EDB52160F3BC0009A3A3 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D41EDAF2160F3BC0009A3A3 /* DayView.swift */; };
@@ -40,6 +41,7 @@
 		2D1C5DD521648E2800EC79A2 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		2D31DEEE216A702E00977507 /* PodoCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodoCalendar.swift; sourceTree = "<group>"; };
 		2D31DEEF216A702E00977507 /* PodoCalendarDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PodoCalendarDelegate.swift; sourceTree = "<group>"; };
+		2D377711218E0F2B006D7C8D /* CalendarUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUtils.swift; sourceTree = "<group>"; };
 		2D41EDA32160F1130009A3A3 /* PodoCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PodoCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D41EDA62160F1130009A3A3 /* PodoCalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PodoCalendar.h; sourceTree = "<group>"; };
 		2D41EDA72160F1130009A3A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				2D1C5DD321648C2500EC79A2 /* UIFont+Additions.swift */,
 				2DD981D621611CCD00DAA814 /* NSNotification+Additions.swift */,
 				2DD981D821611D6100DAA814 /* SelectType.swift */,
+				2D377711218E0F2B006D7C8D /* CalendarUtils.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				2D31DEF0216A702E00977507 /* PodoCalendar.swift in Sources */,
 				2D31DEF1216A702E00977507 /* PodoCalendarDelegate.swift in Sources */,
 				2D1C5DD421648C2500EC79A2 /* UIFont+Additions.swift in Sources */,
+				2D377712218E0F2B006D7C8D /* CalendarUtils.swift in Sources */,
 				2DD981D3216119AE00DAA814 /* UIColor+Additions.swift in Sources */,
 				2DD981D721611CCD00DAA814 /* NSNotification+Additions.swift in Sources */,
 			);

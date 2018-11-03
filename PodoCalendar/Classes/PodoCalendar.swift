@@ -116,7 +116,7 @@ public class PodoCalendar: UIView {
         weekLabel.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height/7)
         calendarView.frame = CGRect(x: 0, y: bounds.height/7, width: bounds.width, height: bounds.height/7 * 6)
         calendarView.contentOffset.x = bounds.width
-        calendarView.selectDate(date: DateInRegion().dateAt(.startOfDay))
+        calendarView.selectDate(date: DateInRegion())
     }
 
     @objc private func onSelected(notification: NSNotification) {
