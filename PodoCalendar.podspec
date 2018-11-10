@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.source_files     = 'PodoCalendar/Classes/**/*'
   s.frameworks = 'UIKit'
-  s.dependency 'SwiftDate', '~> 5.0.9'
+  s.dependency 'SwiftDate', '~> 5.0.13'
 end
