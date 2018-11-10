@@ -15,13 +15,8 @@ internal class BaseView: UIView {
         setup()
     }
 
-    override init(frame: CGRect) {
+    override init(frame: CGRect = .zero) {
         super.init(frame: frame)
-        setup()
-    }
-
-    init() {
-        super.init(frame: .zero)
         setup()
     }
 

@@ -2,7 +2,6 @@
 //  ViewController.swift
 //  Example
 //
-//  Created by NHNEnt on 30/09/2018.
 //  Copyright © 2018 podo. All rights reserved.
 //
 
@@ -16,12 +15,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         calendarView = PodoCalendar()
-        self.view.addSubview(calendarView)
+        calendarView.delegate = self
+        view.addSubview(calendarView)
     }
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
         let layoutInset = view.layoutInsets()
-        calendarView.frame = CGRect(x: 0, y: 0 + layoutInset.top, width: view.bounds.width, height: view.bounds.width)
+        calendarView.frame = CGRect(x: 0, y: 0 + layoutInset.top, width: view.bounds.width, height: 350)
+    }
+}
+
+extension ViewController: PodoCalendarDelegate {
+
+    func calendarView(_ calendarView: PodoCalendar, didSelectDate date: Date) {
+
     }
 }

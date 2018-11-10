@@ -7,7 +7,13 @@
 
 import SwiftDate
 
+internal protocol DayViewDelegate: NSObjectProtocol {
+    func dayView(_ dayView: DayView, didSelectDate date: DateInRegion)
+}
+
 internal class DayView: BaseView {
+
+    weak var delegate: DayViewDelegate?
 
     lazy var dateLabel: UILabel = {
         let label = UILabel()
@@ -46,6 +52,10 @@ internal class DayView: BaseView {
     var isSameMonth: Bool = true {
         didSet {
             updateUI()
+            if isSameMonth {
+                let tap = UITapGestureRecognizer(target: self, action: #selector(onSelected))
+                addGestureRecognizer(tap)
+            }
         }
     }
 
@@ -65,9 +75,13 @@ internal class DayView: BaseView {
         }
     }
 
-    override func setup() {
-        let tap = UITapGestureRecognizer(target: self, action: #selector(onSelected))
-        addGestureRecognizer(tap)
+    convenience init(_ delegate: DayViewDelegate) {
+        self.init(frame: .zero)
+        setup(delegate)
+    }
+
+    func setup(_ delegate: DayViewDelegate) {
+        self.delegate = delegate
         addSubview(beginBackgroundView)
         addSubview(endBackgroundView)
         addSubview(middleBackgroundView)
@@ -80,6 +94,13 @@ internal class DayView: BaseView {
         setupMiddleBackgroundView()
         setupEndBackgroundView()
     }
+
+    @objc func onSelected() {
+        delegate?.dayView(self, didSelectDate: self.date!)
+    }
+}
+
+private extension DayView {
 
     func setupBeginBackgroundView() {
         var cgRect = CGRect(x: bounds.width/2, y: 0, width: bounds.width/2, height: bounds.height)
@@ -156,9 +177,5 @@ internal class DayView: BaseView {
             middleBackgroundView.backgroundColor = .otherMonthSelectedDayBackgroundColor
             endBackgroundView.backgroundColor = .otherMonthSelectedDayBackgroundColor
         }
-    }
-
-    @objc func onSelected() {
-        NotificationCenter.default.post(name: .dateDidSelected, object: self.date)
     }
 }

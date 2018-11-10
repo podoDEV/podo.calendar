@@ -9,18 +9,23 @@ import SwiftDate
 
 internal class WeekView: BaseView {
 
+    var year: Int?
+    var month: Int?
     var days = [DayView]()
     var date: DateInRegion? {
         didSet {
             updateDays()
         }
     }
-    var year: Int?
-    var month: Int?
 
-    override func setup() {
+    convenience init(_ delegate: DayViewDelegate) {
+        self.init(frame: .zero)
+        setup(delegate)
+    }
+
+    func setup(_ delegate: DayViewDelegate) {
         for _ in 0..<7 {
-            let day = DayView()
+            let day = DayView(delegate)
             day.backgroundColor = .normalDayBackgroundColor
             addSubview(day)
             days.append(day)
