@@ -82,7 +82,7 @@ public class PodoCalendar: UIView {
     }()
 
     internal lazy var calendarView: CalendarView = {
-        let view = CalendarView()
+        let view = CalendarView(self)
         view.delegate = self
         return view
     }()
@@ -92,23 +92,15 @@ public class PodoCalendar: UIView {
         setup()
     }
 
-    override public init(frame: CGRect) {
+    override public init(frame: CGRect = .zero) {
         super.init(frame: frame)
         setup()
     }
 
-    public init() {
-        super.init(frame: .zero)
-        setup()
-    }
-
     private func setup() {
+        calendarView.update(DateInRegion(Date()))
         addSubview(weekLabel)
         addSubview(calendarView)
-        NotificationCenter.default.addObserver(self,
-                                               selector: #selector(onSelected(notification:)),
-                                               name: .dateDidSelected,
-                                               object: nil)
     }
 
     override public func layoutSubviews() {
@@ -116,18 +108,14 @@ public class PodoCalendar: UIView {
         weekLabel.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height/7)
         calendarView.frame = CGRect(x: 0, y: bounds.height/7, width: bounds.width, height: bounds.height/7 * 6)
         calendarView.contentOffset.x = bounds.width
-        calendarView.selectDate(date: DateInRegion())
     }
+}
 
-    @objc private func onSelected(notification: NSNotification) {
-        guard let date = notification.object as? DateInRegion else {
-            return
-        }
+extension PodoCalendar: DayViewDelegate {
 
-        calendarView.selectDate(date: date)
-        if let delegate = delegate {
-            delegate.calendarView(self, didSelectDate: date.date)
-        }
+    func dayView(_ dayView: DayView, didSelectDate date: DateInRegion) {
+        calendarView.update(date)
+        delegate?.calendarView?(self, didSelectDate: date.date)
     }
 }
 
@@ -135,12 +123,14 @@ extension PodoCalendar: UIScrollViewDelegate {
 
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         let position = self.calendarView.contentOffset.x / self.calendarView.frame.width
-        if position.isNaN {
-            return
-        }
+        if position.isNaN { return }
 
         if position <= 0.0 || 2.0 <= position {
-            calendarView.move(to: Direction(rawValue: Int(position))!)
+            calendarView.move(to: CalendarView.Direction(rawValue: Int(position))!)
         }
+    }
+
+    public func update(_ date: Date) {
+        calendarView.update(DateInRegion(date))
     }
 }

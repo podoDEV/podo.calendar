@@ -10,7 +10,6 @@ import SwiftDate
 internal class CalendarView: UIScrollView {
 
     var months = [MonthView]()
-    var currentPosition = 1
     var selectedDate: DateInRegion?
     var loadedMonthsWidth: CGFloat {
         get {
@@ -18,24 +17,19 @@ internal class CalendarView: UIScrollView {
         }
     }
 
-    required init?(coder aDecoder: NSCoder) {
-        super.init(coder: aDecoder)
-        setup()
+    convenience init(_ delegate: DayViewDelegate) {
+        self.init(frame: .zero)
+        setup(delegate)
     }
 
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        setup()
-    }
-
-    func setup() {
+    private func setup(_ delegate: DayViewDelegate) {
         isPagingEnabled = true
         showsVerticalScrollIndicator = false
         showsHorizontalScrollIndicator = false
 
         var date = DateInRegion().dateAt(.prevMonth)
         for _ in 0..<3 {
-            let month = MonthView()
+            let month = MonthView(delegate)
             month.date = date
             addSubview(month)
             months.append(month)
@@ -51,6 +45,18 @@ internal class CalendarView: UIScrollView {
             x = month.frame.maxX
         }
         contentSize = CGSize(width: loadedMonthsWidth, height: bounds.size.height)
+    }
+}
+
+internal extension CalendarView {
+
+    func update(_ dateInRegion: DateInRegion) {
+        var date = dateInRegion.dateAt(.prevMonth)
+        for month in months {
+            month.date = date
+            date = date.dateAt(.nextMonth)
+        }
+        selectDate(date: dateInRegion)
     }
 
     func move(to toDirection: Direction) {
@@ -82,7 +88,7 @@ internal class CalendarView: UIScrollView {
         selectDate(date: selectedDate!)
     }
 
-    func selectDate(date: DateInRegion) {
+    private func selectDate(date: DateInRegion) {
         selectedDate = date
         let selectedDateComps = CalendarUtils.dateComponentsOfDate(date: date.date)
         for month in months {
@@ -102,7 +108,9 @@ internal class CalendarView: UIScrollView {
     }
 }
 
-internal enum Direction: Int {
-    case prev = 0
-    case next = 2
+internal extension CalendarView {
+    internal enum Direction: Int {
+        case prev = 0
+        case next = 2
+    }
 }

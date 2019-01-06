@@ -2,7 +2,6 @@
 //  AppDelegate.swift
 //  PodoCalendarExample
 //
-//  Created by NHNEnt on 18/10/2018.
 //  Copyright © 2018 podo. All rights reserved.
 //
 

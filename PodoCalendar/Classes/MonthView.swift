@@ -16,9 +16,14 @@ internal class MonthView: BaseView {
         }
     }
 
-    override func setup() {
+    convenience init(_ delegate: DayViewDelegate) {
+        self.init(frame: .zero)
+        setup(delegate)
+    }
+
+    func setup(_ delegate: DayViewDelegate) {
         for _ in 0..<6 {
-            let week = WeekView()
+            let week = WeekView(delegate)
             addSubview(week)
             weeks.append(week)
         }
