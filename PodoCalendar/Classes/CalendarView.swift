@@ -50,6 +50,15 @@ internal class CalendarView: UIScrollView {
 
 internal extension CalendarView {
 
+    func update(_ dateInRegion: DateInRegion) {
+        var date = dateInRegion.dateAt(.prevMonth)
+        for month in months {
+            month.date = date
+            date = date.dateAt(.nextMonth)
+        }
+        selectDate(date: dateInRegion)
+    }
+
     func move(to toDirection: Direction) {
         let page1 = months[0]
         let page2 = months[1]
@@ -79,7 +88,7 @@ internal extension CalendarView {
         selectDate(date: selectedDate!)
     }
 
-    func selectDate(date: DateInRegion) {
+    private func selectDate(date: DateInRegion) {
         selectedDate = date
         let selectedDateComps = CalendarUtils.dateComponentsOfDate(date: date.date)
         for month in months {

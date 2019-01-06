@@ -98,6 +98,7 @@ public class PodoCalendar: UIView {
     }
 
     private func setup() {
+        calendarView.update(DateInRegion(Date()))
         addSubview(weekLabel)
         addSubview(calendarView)
     }
@@ -107,14 +108,13 @@ public class PodoCalendar: UIView {
         weekLabel.frame = CGRect(x: 0, y: 0, width: bounds.width, height: bounds.height/7)
         calendarView.frame = CGRect(x: 0, y: bounds.height/7, width: bounds.width, height: bounds.height/7 * 6)
         calendarView.contentOffset.x = bounds.width
-        calendarView.selectDate(date: DateInRegion())
     }
 }
 
 extension PodoCalendar: DayViewDelegate {
 
     func dayView(_ dayView: DayView, didSelectDate date: DateInRegion) {
-        calendarView.selectDate(date: date)
+        calendarView.update(date)
         delegate?.calendarView?(self, didSelectDate: date.date)
     }
 }
@@ -128,5 +128,9 @@ extension PodoCalendar: UIScrollViewDelegate {
         if position <= 0.0 || 2.0 <= position {
             calendarView.move(to: CalendarView.Direction(rawValue: Int(position))!)
         }
+    }
+
+    public func update(_ date: Date) {
+        calendarView.update(DateInRegion(date))
     }
 }
